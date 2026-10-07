@@ -1,353 +1,159 @@
-# ANISA HQ
+# 🏢 ANISA HQ
 
-> **AI Operations Headquarters — виртуальная штаб-квартира автономных AI-агентов**
+### AI Operations Headquarters
 
-ANISA HQ — это интеллектуальная операционная система для управления командой AI-агентов.
+> **A digital headquarters where AI agents think, collaborate, execute and operate as a real organization.**
 
-Проект объединяет **AI orchestration, multi-agent systems, task management, memory, communications, tools, integrations и виртуальное 3D-пространство** в единую систему.
+<p align="center">
+  <img src="assets/branding/anisa-hq-cover.png" alt="ANISA HQ" width="100%">
+</p>
 
-ANISA HQ создаётся не как обычный чат с несколькими ботами, а как **цифровая организация**, в которой каждый AI-агент имеет собственную роль, состояние, память, набор инструментов и зону ответственности.
+<p align="center">
+  <strong>ANISA</strong> · <strong>AI Orchestration</strong> · <strong>Multi-Agent Operations</strong> · <strong>Virtual HQ</strong>
+</p>
+
+<p align="center">
+  <a href="#-what-is-anisa-hq">About</a> •
+  <a href="#-ai-team">AI Team</a> •
+  <a href="#-architecture">Architecture</a> •
+  <a href="#-anisa-campus">Campus</a> •
+  <a href="#-roadmap">Roadmap</a>
+</p>
 
 ---
 
-## 1. Vision
+## 🎬 See ANISA HQ in Action
 
-Главная идея ANISA HQ:
+<p align="center">
+  <img src="assets/demo/anisa-hq-demo.gif" alt="ANISA HQ Demo" width="90%">
+</p>
+
+> *From a user request to planning, delegation, execution, review and final delivery — ANISA HQ turns AI into an organized digital workforce.*
+
+---
+
+# 🧠 What is ANISA HQ?
+
+**ANISA HQ** is a multi-agent AI operations platform designed as a **digital company rather than a simple AI chatbot**.
+
+Instead of interacting with one model that tries to do everything, ANISA HQ creates an organized AI environment where specialized agents can:
+
+* understand tasks
+* plan work
+* delegate responsibilities
+* communicate with other agents
+* use tools
+* access controlled memory
+* execute workflows
+* review results
+* request human approval
+* report progress
+* operate inside a shared virtual workspace
+
+The goal is simple:
+
+> **Turn AI from a single assistant into an organized digital team.**
+
+---
+
+# ✨ The Idea
 
 ```text
-                    USER
-                     │
-                     ▼
-                   ANISA
-                     │
-                     ▼
-            CHIEF COORDINATOR
-                     │
-          ┌──────────┼──────────┐
-          ▼          ▼          ▼
-       AGENTS      TASKS      WORKFLOWS
-          │          │          │
-          └──────────┼──────────┘
-                     ▼
-              TOOLS / SERVICES
-                     │
-          ┌──────────┼──────────┐
-          ▼          ▼          ▼
-       GitHub      APIs       Database
-                     │
-                     ▼
-              VIRTUAL CAMPUS
+                         👤 USER
+                           │
+                           ▼
+                        🧠 ANISA
+                           │
+                           ▼
+                  🎯 CHIEF COORDINATOR
+                           │
+             ┌─────────────┼─────────────┐
+             ▼             ▼             ▼
+          👨‍💻 AGENTS      📋 TASKS     🔄 WORKFLOWS
+             │             │             │
+             └─────────────┼─────────────┘
+                           ▼
+                       🛠 TOOLS
+             ┌─────────────┼─────────────┐
+             ▼             ▼             ▼
+          GitHub         Python         APIs
+             │             │             │
+             └─────────────┼─────────────┘
+                           ▼
+                       🗄 DATABASE
+                           │
+                           ▼
+                    🏢 ANISA CAMPUS
 ```
 
-ANISA является интеллектуальным интерфейсом пользователя.
+ANISA is the interface.
 
-**Chief Coordinator** является центральным координатором всей AI-команды.
+The Chief Coordinator is the operational brain.
 
-AI-агенты выполняют специализированную работу.
+Agents are the specialists.
 
-Backend является реальным runtime системы.
+Tools are the hands.
 
-Виртуальный офис является визуальным представлением состояния этой системы.
+Memory is the knowledge.
+
+Tasks are the units of work.
+
+Workflows are the processes.
+
+The Campus is the visual representation of the organization.
 
 ---
 
-# 2. What ANISA HQ Is
+# 🎨 Product Preview
 
-ANISA HQ состоит из нескольких взаимосвязанных уровней:
+## 🖥️ Main HQ
 
-### AI Layer
+<p align="center">
+  <img src="assets/screenshots/dashboard.png" alt="ANISA HQ Dashboard" width="90%">
+</p>
 
-* ANISA
-* Chief Coordinator
-* AI Agents
-* Agent memory
-* Agent communication
-* Decision making
-* Planning
-* Task execution
+### Dashboard
 
-### Operations Layer
+The central operational view of ANISA HQ.
 
-* Tasks
-* Projects
-* Workflows
-* Approvals
-* Agent status
-* Activity
-* Monitoring
-* Notifications
+It provides visibility into:
 
-### Integration Layer
-
-* GitHub
-* APIs
-* HTTP services
-* Python
-* Databases
-* External AI providers
-* Future enterprise integrations
-
-### Interface Layer
-
-* ANISA HQ Dashboard
-* Workspace
-* Agent Center
-* Task Center
-* Communications
-* Workflow Center
-* Architecture Map
-* 3D Spatial Workspace / ANISA Campus
+* active agents
+* current tasks
+* workflow execution
+* system activity
+* approvals
+* integrations
+* operational status
 
 ---
 
-# 3. ANISA HQ Interface
+## 🤖 AI Agents
 
-Текущая концепция интерфейса разработана в Figma.
+<p align="center">
+  <img src="assets/screenshots/agents.png" alt="ANISA HQ AI Agents" width="90%">
+</p>
 
-Основные разделы:
+Every AI employee has a defined:
 
-```text
-ANISA HQ
-│
-├── Dashboard
-├── Workspace
-├── Agents
-├── Tasks
-├── Communications
-├── Workflows
-│
-├── Team
-│
-├── Architecture Map
-├── Runtime Boundaries
-├── Integrations
-├── Database
-│
-└── 3D Spatial Workspace
-    └── ANISA Campus
-```
-
-Интерфейс разделён на **операционную панель** и **пространственное представление AI-команды**.
-
----
-
-# 4. ANISA Campus
-
-ANISA Campus — виртуальное рабочее пространство AI-команды.
-
-В будущем оно может работать через Gather или другой 3D runtime.
-
-Важно:
-
-> **3D-офис не является AI runtime.**
-
-Он является визуальным интерфейсом для уже существующей AI-системы.
-
-Архитектура:
-
-```text
-AI Backend
-     │
-     ▼
-Agent Runtime
-     │
-     ▼
-ANISA HQ API
-     │
-     ▼
-3D Campus Adapter
-     │
-     ▼
-Gather / Other 3D Runtime
-```
-
-Это позволяет менять визуальную платформу, не переписывая AI-ядро.
-
----
-
-# 5. AI Employees
-
-В концепции ANISA HQ предусмотрены цифровые сотрудники.
-
-### Атлас
-
-**Role:** Engineering / Technical Operations
-
-Отвечает за технические задачи, архитектуру и инженерные процессы.
-
-### Нова
-
-**Role:** Frontend / Product Interface
-
-Работает с пользовательскими интерфейсами, frontend и визуальными системами.
-
-### Ирис
-
-**Role:** Research / Intelligence
-
-Проводит исследования, собирает информацию и формирует аналитические материалы.
-
-### Орион
-
-**Role:** Operations
-
-Отвечает за операционные задачи, процессы и координацию выполнения.
-
-### Вега
-
-**Role:** Knowledge / Documentation
-
-Работает с документацией, знаниями, структурированием информации и внутренней базой знаний.
-
-> Имена и специализации являются частью текущей концепции и могут расширяться по мере развития системы.
-
----
-
-# 6. Chief Coordinator
-
-Главный AI-агент системы:
-
-```text
-ai-operations-manager-chief-coordinator
-```
-
-Chief Coordinator является центральным координатором AI-команды.
-
-Он не должен выполнять каждую задачу самостоятельно.
-
-Его основная функция:
-
-1. Получить запрос.
-2. Понять цель.
-3. Разбить задачу.
-4. Определить необходимых агентов.
-5. Создать execution plan.
-6. Распределить задачи.
-7. Контролировать выполнение.
-8. Объединить результаты.
-9. Проверить результат.
-10. Запросить human approval, если требуется.
-11. Передать пользователю итог.
-
-Пример:
-
-```text
-User
- │
- ▼
-Chief Coordinator
- │
- ├── Research Agent
- │
- ├── Backend Agent
- │
- ├── Frontend Agent
- │
- └── QA Agent
- │
- ▼
-Chief Coordinator
- │
- ▼
-Final Result
-```
-
----
-
-# 7. Agent System
-
-Каждый агент является самостоятельным runtime-компонентом.
-
-Agent должен иметь:
-
-```typescript
-interface Agent {
-  id: string;
-  name: string;
-  role: string;
-
-  status:
-    | "available"
-    | "working"
-    | "waiting"
-    | "blocked"
-    | "offline";
-
-  capabilities: string[];
-  tools: string[];
-  permissions: string[];
-
-  memory: AgentMemory;
-}
-```
-
-Агент не должен иметь неограниченный доступ ко всей системе.
-
-Каждому агенту назначаются:
-
+* identity
+* role
 * capabilities
-* tools
 * permissions
-* memory scope
-* allowed actions
-* escalation rules
+* tools
+* memory
+* status
+* responsibilities
 
 ---
 
-# 8. Agent Status
+## 📋 Task Center
 
-ANISA HQ использует состояния агентов для отображения их текущей активности.
+<p align="center">
+  <img src="assets/screenshots/tasks.png" alt="ANISA HQ Tasks" width="90%">
+</p>
 
-Основные состояния:
-
-```text
-AVAILABLE
-WORKING
-WAITING
-BLOCKED
-OFFLINE
-```
-
-Например:
-
-```text
-ATLAS
-● WORKING
-
-Task:
-Implement authentication API
-
-Progress:
-████████░░ 80%
-```
-
-Эти состояния должны отображаться как в Dashboard, так и в 3D Campus.
-
----
-
-# 9. Task System
-
-Любая работа в ANISA HQ должна существовать как задача.
-
-Пример:
-
-```text
-Task
-├── ID
-├── Title
-├── Description
-├── Priority
-├── Status
-├── Assignee
-├── Parent Task
-├── Dependencies
-├── Tools
-├── Created At
-├── Updated At
-└── Result
-```
-
-Основной lifecycle:
+Tasks are the basic execution units of the organization.
 
 ```text
 CREATED
@@ -365,405 +171,520 @@ APPROVAL
 COMPLETED
 ```
 
-При возникновении проблемы:
+---
+
+## 🔄 Workflows
+
+<p align="center">
+  <img src="assets/screenshots/workflows.png" alt="ANISA HQ Workflows" width="90%">
+</p>
+
+Complex work can be represented as a workflow.
 
 ```text
-IN PROGRESS
-      ↓
-    BLOCKED
-      ↓
- RESOLUTION
-      ↓
- IN PROGRESS
+Research
+    │
+    ├──────────────┐
+    ▼              ▼
+Architecture    Planning
+    │              │
+    └──────┬───────┘
+           ▼
+       Development
+           │
+           ▼
+          QA
+           │
+           ▼
+        Review
+           │
+           ▼
+       Deployment
 ```
 
 ---
 
-# 10. Workflows
+# 👥 AI Team
 
-Workflow позволяет объединять несколько задач и агентов в единый процесс.
+ANISA HQ is designed around specialized digital employees.
 
-Например:
+<p align="center">
+  <img src="assets/team/ai-team.png" alt="ANISA HQ AI Team" width="90%">
+</p>
 
-```text
-New Feature
-│
-├── Research
-│
-├── Architecture
-│
-├── Backend
-│
-├── Frontend
-│
-├── Testing
-│
-├── Code Review
-│
-└── Deployment
-```
+---
 
-Chief Coordinator управляет зависимостями между этапами.
+## 🛰️ Atlas
 
-Некоторые задачи могут выполняться параллельно:
+### Engineering & Technical Operations
+
+Atlas focuses on technical execution.
+
+**Responsibilities**
+
+* software architecture
+* backend engineering
+* infrastructure
+* technical analysis
+* debugging
+* system implementation
 
 ```text
-              ┌── Frontend ──┐
-Research ─────┤               ├── Integration
-              └── Backend ────┘
+ATLAS
+● WORKING
+
+Engineering
+████████░░ 80%
 ```
 
 ---
 
-# 11. Communications
+## ⚡ Nova
 
-AI-агенты должны иметь внутренний communication layer.
+### Frontend & Product Interface
 
-Пример:
+Nova focuses on interfaces and user experience.
+
+**Responsibilities**
+
+* frontend development
+* UI implementation
+* component systems
+* design integration
+* interaction logic
+* product interface
 
 ```text
-Atlas → Nova
+NOVA
+● AVAILABLE
 
-"Backend API /users готов.
-Endpoint:
-POST /api/users
-
-Frontend integration can begin."
+Frontend
+Ready for task
 ```
 
-Сообщения между агентами являются частью execution context.
+---
 
-Система должна поддерживать:
+## 🔬 Iris
 
-* direct agent messages
+### Research & Intelligence
+
+Iris transforms information into useful knowledge.
+
+**Responsibilities**
+
+* research
+* information gathering
+* analysis
+* comparison
+* fact checking
+* intelligence reports
+
+```text
+IRIS
+● WORKING
+
+Research
+Collecting information...
+```
+
+---
+
+## 🛰️ Orion
+
+### Operations
+
+Orion focuses on execution and operational coordination.
+
+**Responsibilities**
+
+* operational tasks
+* process management
+* workflow execution
+* coordination
+* monitoring
+* escalation
+
+---
+
+## 📚 Vega
+
+### Knowledge & Documentation
+
+Vega maintains the organization's knowledge layer.
+
+**Responsibilities**
+
+* documentation
+* knowledge management
+* specifications
+* internal guides
+* reports
+* structured information
+
+---
+
+# 🎯 Chief Coordinator
+
+At the center of the system is:
+
+```text
+ai-operations-manager-chief-coordinator
+```
+
+The Chief Coordinator is responsible for turning user intent into executable work.
+
+### Example
+
+```text
+USER
+
+"Build authentication for the application."
+
+             ↓
+
+CHIEF COORDINATOR
+
+Analyzes request
+Creates plan
+Selects agents
+Assigns tasks
+Monitors execution
+
+             ↓
+
+┌────────────┬────────────┬────────────┐
+│            │            │            │
+▼            ▼            ▼            ▼
+Atlas       Nova         Iris         QA
+Backend     Frontend     Research     Testing
+
+└────────────┴────────────┴────────────┘
+
+             ↓
+
+CHIEF COORDINATOR
+
+Reviews results
+Resolves conflicts
+Requests approval if necessary
+
+             ↓
+
+FINAL RESULT
+```
+
+The Coordinator should **coordinate**, not unnecessarily perform every task itself.
+
+---
+
+# 🧩 Architecture
+
+<p align="center">
+  <img src="assets/architecture/anisa-architecture.png" alt="ANISA HQ Architecture" width="95%">
+</p>
+
+ANISA HQ follows a layered architecture.
+
+```text
+┌──────────────────────────────────────────────┐
+│                    USER                      │
+└──────────────────────┬───────────────────────┘
+                       │
+                       ▼
+┌──────────────────────────────────────────────┐
+│                   ANISA                      │
+│          User-facing AI interface            │
+└──────────────────────┬───────────────────────┘
+                       │
+                       ▼
+┌──────────────────────────────────────────────┐
+│             CHIEF COORDINATOR               │
+│        Planning / Delegation / Control       │
+└──────────────────────┬───────────────────────┘
+                       │
+                       ▼
+┌──────────────────────────────────────────────┐
+│                AGENT RUNTIME                 │
+│                                              │
+│ Atlas │ Nova │ Iris │ Orion │ Vega │ ...    │
+└──────────────────────┬───────────────────────┘
+                       │
+                       ▼
+┌──────────────────────────────────────────────┐
+│               TOOL / SERVICE LAYER           │
+│                                              │
+│ GitHub │ Python │ HTTP │ APIs │ Database    │
+└──────────────────────┬───────────────────────┘
+                       │
+                       ▼
+┌──────────────────────────────────────────────┐
+│                  DATABASE                    │
+│ Tasks │ Memory │ Events │ Agents │ Projects │
+└──────────────────────┬───────────────────────┘
+                       │
+                       ▼
+┌──────────────────────────────────────────────┐
+│             PRESENTATION LAYER               │
+│                                              │
+│ Dashboard │ Web HQ │ 3D Campus │ Gather    │
+└──────────────────────────────────────────────┘
+```
+
+---
+
+# 🧠 Memory Architecture
+
+Agents don't operate with context alone.
+
+ANISA HQ is designed around multiple memory scopes.
+
+```text
+                    MEMORY
+                       │
+       ┌───────────────┼───────────────┐
+       ▼               ▼               ▼
+ Short-Term        Project         Long-Term
+   Memory           Memory           Memory
+       │               │               │
+       └───────────────┼───────────────┘
+                       ▼
+                 Shared Knowledge
+```
+
+### Memory Types
+
+| Memory         | Purpose                     |
+| -------------- | --------------------------- |
+| Short-Term     | Current execution context   |
+| Task Memory    | Context of a specific task  |
+| Project Memory | Project-specific knowledge  |
+| Agent Memory   | Agent-specific knowledge    |
+| Shared Memory  | Organization-wide knowledge |
+| Long-Term      | Persistent knowledge        |
+
+---
+
+# 💬 Agent Communication
+
+Agents communicate through an internal communication layer.
+
+Example:
+
+```text
+ATLAS → NOVA
+
+Backend authentication API is ready.
+
+POST /api/auth/login
+POST /api/auth/register
+
+Frontend integration can begin.
+```
+
+Communication supports:
+
+* direct messages
 * task discussions
-* system events
 * coordinator broadcasts
-* escalation messages
+* system events
+* escalation
 * approval requests
 
 ---
 
-# 12. Memory
+# 🛠️ Tools & Integrations
 
-ANISA HQ использует несколько уровней памяти.
+<p align="center">
+  <img src="assets/integrations/integrations.png" alt="ANISA HQ Integrations" width="85%">
+</p>
 
-### Short-Term Memory
-
-Контекст текущего выполнения.
-
-### Long-Term Memory
-
-Постоянные знания агента.
-
-### Shared Memory
-
-Общие знания AI-команды.
-
-### Project Memory
-
-Информация конкретного проекта.
-
-### Task Memory
-
-Контекст отдельной задачи.
-
-Архитектура:
+ANISA HQ is designed around adapters.
 
 ```text
-              MEMORY
-                 │
-      ┌──────────┼──────────┐
-      ▼          ▼          ▼
-   Short      Project      Long
-   Term       Memory       Term
-      │          │          │
-      └──────────┼──────────┘
-                 ▼
-           Shared Knowledge
-```
-
----
-
-# 13. Tools
-
-AI-агенты работают не только с текстом.
-
-Они получают доступ к инструментам.
-
-Примеры:
-
-```text
-GitHub
-Python
-HTTP
-Database
-Filesystem
-Browser
-External APIs
-AI Models
-```
-
-Каждый инструмент подключается через integration layer.
-
----
-
-# 14. Integrations
-
-ANISA HQ использует adapter-based architecture.
-
-```text
-Agent
+AGENT
   │
   ▼
-Tool Interface
+TOOL INTERFACE
   │
   ▼
-Adapter
+ADAPTER
   │
   ├── GitHub
   ├── Python
   ├── HTTP
   ├── Database
-  └── External Services
+  ├── AI Providers
+  └── External APIs
 ```
 
-Это позволяет заменять внешние сервисы без изменения логики агентов.
+This allows integrations to evolve independently from agent logic.
 
 ---
 
-# 15. GitHub Integration
+# 🐙 GitHub Integration
 
-GitHub является одной из ключевых интеграций инженерной системы.
+GitHub is one of the core engineering integrations.
 
-AI-агенты смогут:
+Agents can eventually:
 
-* читать repositories
-* анализировать codebase
-* создавать branches
-* создавать commits
-* создавать pull requests
-* анализировать issues
-* выполнять code review
-* отслеживать изменения
-* работать с документацией
+* inspect repositories
+* analyze code
+* create branches
+* create commits
+* create pull requests
+* review code
+* manage issues
+* inspect CI/CD
+* update documentation
 
-Все операции должны выполняться согласно permissions агента.
+All actions are controlled through permissions.
 
 ---
 
-# 16. Approval System
+# 🔐 Human Approval
 
-ANISA HQ не должна позволять AI-агентам бесконтрольно выполнять критические действия.
+AI should not have unlimited authority.
 
-Некоторые операции требуют подтверждения человека.
-
-Например:
+Critical operations can require explicit human approval.
 
 ```text
-Agent
+AGENT
   │
   ▼
-Critical Action
+CRITICAL ACTION
   │
   ▼
-Approval Request
+APPROVAL REQUEST
   │
   ▼
-Human
+👤 HUMAN
   │
- ┌┴──────────┐
- ▼           ▼
-APPROVE    REJECT
+  ├──────────────┐
+  ▼              ▼
+APPROVE        REJECT
 ```
 
-Примеры потенциально контролируемых действий:
+Examples:
 
 * production deployment
 * destructive database operations
-* удаление данных
-* публикация от имени пользователя
-* финансовые действия
-* изменение системных permissions
+* deletion of important data
+* permission changes
+* external publication
+* sensitive actions
 
 ---
 
-# 17. Activity System
+# 📡 Activity & Monitoring
 
-ANISA HQ должна хранить историю происходящего.
+ANISA HQ should always make system activity visible.
 
-Пример:
+Example:
 
 ```text
-01:42 Atlas started task #184
-01:43 Iris completed research
-01:45 Nova started frontend implementation
-01:48 Chief Coordinator requested review
-01:51 Human approval required
+01:42  Atlas started task #184
+01:43  Iris completed research
+01:45  Nova started frontend implementation
+01:48  Coordinator requested review
+01:51  Approval required
 ```
 
-Activity Feed используется для:
+The Activity layer supports:
 
 * monitoring
 * debugging
-* audit
+* auditing
 * analytics
-* user interface
 * agent supervision
+* execution history
 
 ---
 
-# 18. Architecture Map
+# 🏢 ANISA Campus
 
-Figma-концепция ANISA HQ содержит Architecture Map.
+## A Virtual Headquarters for AI Employees
 
-Она показывает основные runtime boundaries:
+<p align="center">
+  <img src="assets/campus/anisa-campus.png" alt="ANISA Campus" width="95%">
+</p>
+
+ANISA Campus is the spatial representation of the AI organization.
+
+The Campus can contain dedicated areas such as:
 
 ```text
-                    ANISA HQ
-                       │
-        ┌──────────────┼──────────────┐
-        ▼              ▼              ▼
-     Frontend        Backend       Agents
-        │              │              │
-        │              ▼              │
-        │          Coordinator        │
-        │              │              │
-        │        ┌─────┴─────┐        │
-        │        ▼           ▼        │
-        │      Tasks       Memory     │
-        │        │           │        │
-        └────────┼───────────┼────────┘
-                 ▼
-             Database
-                 │
-                 ▼
-           Integrations
+ANISA CAMPUS
+│
+├── 🧠 Command Center
+│
+├── 💻 Engineering
+│
+├── 🔬 Research
+│
+├── ⚙️ Operations
+│
+└── 📚 Knowledge / Servers
 ```
 
-Главная задача Architecture Map — показывать, где заканчивается один runtime boundary и начинается другой.
+AI employees can have:
+
+* offices
+* avatars
+* status indicators
+* active tasks
+* communication states
+* activity visualization
 
 ---
 
-# 19. Database
+# 🌐 Gather
 
-Основные сущности:
+Gather can serve as one of the possible 3D presentation runtimes.
 
 ```text
-users
-agents
-agent_capabilities
-agent_permissions
-
-projects
-tasks
-task_dependencies
-workflows
-
-messages
-events
-approvals
-
-memories
-knowledge
-
-tools
-integrations
-
-agent_sessions
-execution_runs
-audit_logs
+ANISA BACKEND
+       │
+       ▼
+AGENT RUNTIME
+       │
+       ▼
+ANISA HQ API
+       │
+       ▼
+3D CAMPUS ADAPTER
+       │
+       ▼
+GATHER
 ```
 
-Database является источником состояния системы.
+### Important architectural principle
+
+> **Gather is the interface — not the AI brain.**
+
+The actual intelligence, orchestration, memory and task execution remain outside the 3D environment.
+
+This makes it possible to replace Gather later with:
+
+* Three.js
+* WebGL
+* Babylon.js
+* Unity
+* Unreal Engine
+* custom 3D runtime
+
+without rebuilding the AI core.
 
 ---
 
-# 20. Technology Direction
+# 🎨 Figma
 
-Текущий target stack:
+<p align="center">
+  <img src="assets/figma/anisa-hq-design.png" alt="ANISA HQ Figma Design" width="95%">
+</p>
 
-### Frontend
+The ANISA HQ interface is designed in Figma as the visual source of truth.
 
-```text
-React
-TypeScript
-Vite / Next.js
-```
-
-### Backend
-
-```text
-Node.js
-TypeScript
-REST API
-WebSocket
-```
-
-### Database
-
-```text
-PostgreSQL
-```
-
-### AI
-
-AI provider abstraction layer.
-
-Система не должна быть жёстко привязана к одному AI provider.
-
----
-
-# 21. Runtime Architecture
-
-Целевая архитектура:
-
-```text
-                    USER
-                      │
-                      ▼
-                    ANISA
-                      │
-                      ▼
-             CHIEF COORDINATOR
-                      │
-              ┌───────┴───────┐
-              ▼               ▼
-           PLANNER         MEMORY
-              │
-              ▼
-        AGENT ORCHESTRATOR
-              │
-      ┌───────┼────────┐
-      ▼       ▼        ▼
-    ATLAS    NOVA     IRIS
-      │       │        │
-      └───────┼────────┘
-              ▼
-             TOOLS
-              │
-      ┌───────┼────────┐
-      ▼       ▼        ▼
-   GitHub   Python     APIs
-              │
-              ▼
-           DATABASE
-              │
-              ▼
-        ANISA HQ STATE
-              │
-      ┌───────┴────────┐
-      ▼                ▼
-   Dashboard       3D Campus
-```
-
----
-
-# 22. Figma as Design Source
-
-Figma используется как source of truth для визуальной архитектуры ANISA HQ.
-
-В текущем концепте представлены:
+The current design concept includes:
 
 * Dashboard
 * Workspace
@@ -784,190 +705,119 @@ Figma используется как source of truth для визуально�
 * approval flows
 * memory and tools
 
-При реализации интерфейса код должен постепенно приводиться в соответствие с системой компонентов и layout, определённой в Figma.
-
-> Текущий Figma-файл является концептуальной моделью. Подключение реальных backend integrations выполняется отдельно.
+> The current Figma environment represents the product concept and visual architecture. Real backend integrations are implemented separately.
 
 ---
 
-# 23. 3D Office Principle
+# 🖼️ Interface Gallery
 
-ANISA HQ может использовать Gather как один из visual runtimes.
+A dedicated visual gallery can live inside the repository.
 
-```text
-              ANISA BACKEND
-                    │
-             ┌──────┴──────┐
-             ▼             ▼
-        Web Dashboard    3D Adapter
-                            │
-                            ▼
-                         Gather
-```
+### Dashboard
 
-Поэтому Gather не должен содержать основную бизнес-логику AI.
+<img src="assets/screenshots/dashboard.png" alt="Dashboard" width="100%">
 
-Это позволяет в будущем заменить Gather на:
+### Agents
 
-* собственный WebGL/Three.js Campus
-* Babylon.js
-* Unity
-* Unreal
-* другой virtual workspace
+<img src="assets/screenshots/agents.png" alt="Agents" width="100%">
 
-без переписывания AI backend.
+### Tasks
 
----
+<img src="assets/screenshots/tasks.png" alt="Tasks" width="100%">
 
-# 24. Security
+### Communications
 
-Безопасность является частью архитектуры, а не дополнительной функцией.
+<img src="assets/screenshots/communications.png" alt="Communications" width="100%">
 
-Система должна контролировать:
+### Workflows
 
-* authentication
-* authorization
-* agent permissions
-* tool permissions
-* secrets
-* API keys
-* database access
-* audit logs
-* human approvals
+<img src="assets/screenshots/workflows.png" alt="Workflows" width="100%">
 
-Принцип:
+### Architecture
 
-> **Agent получает только тот доступ, который необходим для выполнения его роли.**
+<img src="assets/screenshots/architecture-map.png" alt="Architecture Map" width="100%">
 
 ---
 
-# 25. Observability
-
-ANISA HQ должна понимать, что происходит внутри системы.
-
-Необходимо отслеживать:
+# 📁 Repository Structure
 
 ```text
-Agent execution
-Task execution
-Workflow execution
-Tool calls
-API calls
-Errors
-Latency
-Token usage
-Approvals
-Failures
-Retries
-```
-
-Это позволит анализировать эффективность AI-команды.
-
----
-
-# 26. Error Handling
-
-Каждый execution должен иметь возможность:
-
-```text
-Retry
-Pause
-Resume
-Escalate
-Rollback
-Fail
-```
-
-Пример:
-
-```text
-Agent
- │
- ▼
-Tool Call
- │
- ├── SUCCESS ──→ Continue
- │
- └── ERROR
-       │
-       ▼
-     Retry
-       │
-   ┌───┴───┐
-   ▼       ▼
-Success   Failed
-           │
-           ▼
-       Escalation
-           │
-           ▼
-     Chief Coordinator
+ANISA-HQ/
+│
+├── README.md
+├── ARCHITECTURE.md
+├── AGENTS.md
+├── ANISA.md
+├── COORDINATION.md
+├── MEMORY.md
+├── TASKS.md
+├── COMMUNICATION.md
+├── TOOLS.md
+├── GATHER.md
+├── FIGMA.md
+├── API.md
+├── SECURITY.md
+├── DATABASE.md
+├── DEVELOPMENT.md
+├── DEPLOYMENT.md
+└── ROADMAP.md
+│
+├── apps/
+│   ├── web/
+│   └── campus/
+│
+├── backend/
+│   ├── coordinator/
+│   ├── agents/
+│   ├── workflows/
+│   ├── memory/
+│   ├── tools/
+│   └── integrations/
+│
+├── packages/
+│   ├── shared/
+│   ├── types/
+│   └── ui/
+│
+├── assets/
+│   ├── branding/
+│   ├── screenshots/
+│   ├── demo/
+│   ├── team/
+│   ├── architecture/
+│   ├── campus/
+│   └── integrations/
+│
+└── docs/
+    ├── agents/
+    ├── architecture/
+    ├── guides/
+    └── integrations/
 ```
 
 ---
 
-# 27. Human-in-the-Loop
+# 🚀 Roadmap
 
-ANISA HQ является AI-first системой, но человек остаётся владельцем критических решений.
-
-Human может:
-
-* approve
-* reject
-* pause
-* cancel
-* reassign
-* modify
-* inspect
-* override
-
-Это особенно важно для production и потенциально destructive operations.
-
----
-
-# 28. Project Status
-
-### Current Stage
-
-**Concept / Architecture / Design**
-
-На текущем этапе:
-
-* AI organization концептуализирована
-* Chief Coordinator определён
-* agent architecture определена
-* task system определена
-* memory architecture определена
-* communication architecture определена
-* Figma interface создан
-* ANISA Campus концептуализирован
-* integration architecture определена
-
-Следующий этап — соединить концептуальную модель с реальным backend runtime.
-
----
-
-# 29. Roadmap
-
-## Phase 1 — Foundation
+## Phase 01 — Foundation
 
 * [ ] Repository
 * [ ] Backend
 * [ ] Database
 * [ ] Authentication
-* [ ] Agent runtime
 * [ ] AI provider abstraction
+* [ ] Agent runtime
 
-## Phase 2 — Coordinator
+## Phase 02 — Chief Coordinator
 
-* [ ] Chief Coordinator
-* [ ] Task creation
-* [ ] Task assignment
+* [ ] Task intake
 * [ ] Planning
-* [ ] Agent execution
+* [ ] Delegation
+* [ ] Agent selection
+* [ ] Execution tracking
 * [ ] Result aggregation
 
-## Phase 3 — Agent Team
+## Phase 03 — AI Team
 
 * [ ] Atlas
 * [ ] Nova
@@ -977,8 +827,9 @@ Human может:
 * [ ] Agent permissions
 * [ ] Agent communication
 
-## Phase 4 — Operations
+## Phase 04 — Operations
 
+* [ ] Tasks
 * [ ] Workflows
 * [ ] Approvals
 * [ ] Activity feed
@@ -986,15 +837,15 @@ Human может:
 * [ ] Audit logs
 * [ ] Error handling
 
-## Phase 5 — Knowledge
+## Phase 05 — Memory
 
 * [ ] Short-term memory
 * [ ] Long-term memory
-* [ ] Shared memory
+* [ ] Agent memory
 * [ ] Project memory
-* [ ] Knowledge system
+* [ ] Shared knowledge
 
-## Phase 6 — Integrations
+## Phase 06 — Integrations
 
 * [ ] GitHub
 * [ ] Python
@@ -1002,7 +853,7 @@ Human может:
 * [ ] External APIs
 * [ ] Database tools
 
-## Phase 7 — ANISA HQ Interface
+## Phase 07 — HQ Interface
 
 * [ ] Dashboard
 * [ ] Workspace
@@ -1012,7 +863,7 @@ Human может:
 * [ ] Workflows
 * [ ] Architecture Map
 
-## Phase 8 — ANISA Campus
+## Phase 08 — ANISA Campus
 
 * [ ] 3D environment
 * [ ] Agent avatars
@@ -1024,72 +875,103 @@ Human может:
 
 ---
 
-# 30. Documentation
+# 📚 Documentation
 
-Основная документация проекта:
-
-```text
-README.md
-ARCHITECTURE.md
-AGENTS.md
-ANISA.md
-COORDINATION.md
-MEMORY.md
-TASKS.md
-COMMUNICATION.md
-TOOLS.md
-GATHER.md
-FIGMA.md
-API.md
-SECURITY.md
-DATABASE.md
-DEVELOPMENT.md
-DEPLOYMENT.md
-ROADMAP.md
-```
-
-Дополнительная документация:
-
-```text
-docs/
-├── agents/
-├── architecture/
-├── guides/
-└── integrations/
-```
+| Document                               | Description           |
+| -------------------------------------- | --------------------- |
+| [`ARCHITECTURE.md`](ARCHITECTURE.md)   | System architecture   |
+| [`AGENTS.md`](AGENTS.md)               | AI agent architecture |
+| [`ANISA.md`](ANISA.md)                 | ANISA core            |
+| [`COORDINATION.md`](COORDINATION.md)   | Chief Coordinator     |
+| [`MEMORY.md`](MEMORY.md)               | Memory system         |
+| [`TASKS.md`](TASKS.md)                 | Task architecture     |
+| [`COMMUNICATION.md`](COMMUNICATION.md) | Agent communication   |
+| [`TOOLS.md`](TOOLS.md)                 | Tool system           |
+| [`GATHER.md`](GATHER.md)               | 3D Campus / Gather    |
+| [`FIGMA.md`](FIGMA.md)                 | Figma design system   |
+| [`API.md`](API.md)                     | API reference         |
+| [`SECURITY.md`](SECURITY.md)           | Security architecture |
+| [`DATABASE.md`](DATABASE.md)           | Database architecture |
+| [`DEVELOPMENT.md`](DEVELOPMENT.md)     | Development guide     |
+| [`DEPLOYMENT.md`](DEPLOYMENT.md)       | Deployment            |
+| [`ROADMAP.md`](ROADMAP.md)             | Product roadmap       |
 
 ---
 
-# 31. Core Principle
+# 🧭 Core Principles
 
-ANISA HQ строится вокруг одной фундаментальной идеи:
+### 01 — AI is a team
 
-> **AI должен быть не просто собеседником, а организованной цифровой командой, способной планировать, выполнять, проверять и координировать реальную работу.**
+ANISA HQ is not designed around a single universal agent.
 
-ANISA — интерфейс и интеллектуальный помощник.
+### 02 — Agents have roles
 
-Chief Coordinator — мозг операционной координации.
+Every agent has a defined responsibility.
 
-Agents — цифровые специалисты.
+### 03 — Coordination is centralized
 
-Tools — руки системы.
+The Chief Coordinator manages complex execution.
 
-Memory — её знания.
+### 04 — Permissions matter
 
-Tasks — единицы работы.
+Agents only receive the access they need.
 
-Workflows — процессы.
+### 05 — Humans remain in control
 
-Database — состояние.
+Critical operations can require approval.
 
-3D Campus — пространство.
+### 06 — The interface is separate from the brain
 
-Human — финальный контролирующий слой.
+The visual environment never becomes the core runtime.
+
+### 07 — Everything is observable
+
+Tasks, agents, tools and workflows should be traceable.
+
+### 08 — The architecture is replaceable
+
+External services should connect through adapters.
 
 ---
 
-## ANISA HQ
+# 🌌 The Vision
 
-**AI Operations Headquarters**
+ANISA HQ is being built around a simple idea:
 
-`Design → Orchestration → Agents → Tools → Execution → Results`
+> **What if an AI organization could have its own headquarters?**
+
+Not just a chat window.
+
+Not just a collection of bots.
+
+A real digital environment where:
+
+```text
+AI
+│
+├── THINKS
+├── PLANS
+├── DELEGATES
+├── COMMUNICATES
+├── EXECUTES
+├── REVIEWS
+├── LEARNS
+└── REPORTS
+```
+
+And where the entire organization can be observed through a living digital headquarters.
+
+---
+
+<p align="center">
+  <img src="assets/branding/anisa-hq-footer.png" alt="ANISA HQ" width="70%">
+</p>
+
+<p align="center">
+  <strong>ANISA HQ</strong><br>
+  AI Operations Headquarters
+</p>
+
+<p align="center">
+  <i>Build the organization. Give it intelligence. Give it a place to work.</i>
+</p>
