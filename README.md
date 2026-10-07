@@ -990,4 +990,106 @@ Human может:
 
 * [ ] Short-term memory
 * [ ] Long-term memory
-* [ ] Shar
+* [ ] Shared memory
+* [ ] Project memory
+* [ ] Knowledge system
+
+## Phase 6 — Integrations
+
+* [ ] GitHub
+* [ ] Python
+* [ ] HTTP
+* [ ] External APIs
+* [ ] Database tools
+
+## Phase 7 — ANISA HQ Interface
+
+* [ ] Dashboard
+* [ ] Workspace
+* [ ] Agents
+* [ ] Tasks
+* [ ] Communications
+* [ ] Workflows
+* [ ] Architecture Map
+
+## Phase 8 — ANISA Campus
+
+* [ ] 3D environment
+* [ ] Agent avatars
+* [ ] Agent rooms
+* [ ] Live status
+* [ ] Task visualization
+* [ ] Activity visualization
+* [ ] Gather adapter
+
+---
+
+# 30. Documentation
+
+Основная документация проекта:
+
+```text
+README.md
+ARCHITECTURE.md
+AGENTS.md
+ANISA.md
+COORDINATION.md
+MEMORY.md
+TASKS.md
+COMMUNICATION.md
+TOOLS.md
+GATHER.md
+FIGMA.md
+API.md
+SECURITY.md
+DATABASE.md
+DEVELOPMENT.md
+DEPLOYMENT.md
+ROADMAP.md
+```
+
+Дополнительная документация:
+
+```text
+docs/
+├── agents/
+├── architecture/
+├── guides/
+└── integrations/
+```
+
+---
+
+# 31. Core Principle
+
+ANISA HQ строится вокруг одной фундаментальной идеи:
+
+> **AI должен быть не просто собеседником, а организованной цифровой командой, способной планировать, выполнять, проверять и координировать реальную работу.**
+
+ANISA — интерфейс и интеллектуальный помощник.
+
+Chief Coordinator — мозг операционной координации.
+
+Agents — цифровые специалисты.
+
+Tools — руки системы.
+
+Memory — её знания.
+
+Tasks — единицы работы.
+
+Workflows — процессы.
+
+Database — состояние.
+
+3D Campus — пространство.
+
+Human — финальный контролирующий слой.
+
+---
+
+## ANISA HQ
+
+**AI Operations Headquarters**
+
+`Design → Orchestration → Agents → Tools → Execution → Results`
