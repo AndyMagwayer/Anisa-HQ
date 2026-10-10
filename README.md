@@ -1,6 +1,6 @@
 <div align="center">
 
-# ◈ ANISA HQ
+# ◈ ANISA HQ office
 
 ### AI OPERATIONS HEADQUARTERS
 
