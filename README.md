@@ -1,71 +1,87 @@
-<div align="center">
+# ◈ ANISA Agents Office (HQ)
 
-# ◈ ANISA agents office
+> Digital headquarters concept and interactive visualization prototypes for a structured multi-agent AI organization.
 
-### AI OPERATIONS HEADQUARTERS
-
-**A digital headquarters where AI agents think, collaborate, execute, and operate as a structured organization.**
-
-<br>
-
-[![Node.js](https://img.shields.io/badge/Node.js-18+-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)](#)
-[![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](#)
-[![HTML5](https://img.shields.io/badge/HTML5-Interactive_Office-E34F26?style=for-the-badge&logo=html5&logoColor=white)](#)
-[![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)](#)
-
-</div>
+[![Node.js](https://img.shields.io/badge/Node.js-18+-339933?style=flat-square&logo=nodedotjs&logoColor=white)](#)
+[![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?style=flat-square&logo=javascript&logoColor=black)](#)
+[![HTML5](https://img.shields.io/badge/HTML5-Interactive_Office-E34F26?style=flat-square&logo=html5&logoColor=white)](#)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](LICENSE)
 
 ---
 
-## 🌐 Overview
+## 🌐 Project Overview
 
-**ANISA HQ** explores a multi-agent digital operations environment where specialized artificial intelligence roles interact within a coordinated structure. Rather than acting as a singular unstructured conversational model, the project defines specialized operational personas (Atlas, Nova, Iris, Orion, Vega) led by a Chief Coordinator.
+**ANISA HQ** explores a spatial, multi-agent operations model where artificial intelligence roles interact within a coordinated virtual office structure. Rather than relying on a single monolithic conversational prompt, the system breaks work down across specialized operational personas coordinated by a Chief Coordinator.
 
-This repository houses the conceptual specifications, spatial browser-based visualization prototypes for virtual office environments, and the companion Node.js orchestration bot service.
+This repository contains:
+- **Interactive Visualizers**: Standalone HTML5/Canvas/DOM spatial prototypes modeling agent workstations, department rooms, and task flows.
+- **Orchestration Bot**: A Node.js companion service (`Anisa-HQ/bot/`) that serves as the execution runtime for agent messaging and task delegation.
+- **Architecture & Specifications**: Detailed operational specifications and role definitions documented in English and Russian (`Офис агентов.md`).
 
 ```text
-                         ┌───────────────────┐
-                         │       USER        │
-                         └─────────┬─────────┘
-                                   │
-                                   ▼
-                         ┌───────────────────┐
-                         │      ANISA        │
-                         │   AI Assistant    │
-                         └─────────┬─────────┘
-                                   │
-                                   ▼
-                    ┌──────────────────────────┐
-                    │    CHIEF COORDINATOR     │
-                    │   Planning & Delegation  │
-                    └────────────┬─────────────┘
-                                 │
-               ┌─────────────────┼─────────────────┐
-               ▼                 ▼                 ▼
-        ┌────────────┐    ┌────────────┐    ┌────────────┐
-        │ Engineering│    │  Research  │    │ Operations │
-        │   Agents   │    │   Agents   │    │   Agents   │
-        └──────┬─────┘    └──────┬─────┘    └──────┬─────┘
-               │                 │                 │
-               └─────────────────┼─────────────────┘
-                                 ▼
-                       ┌───────────────────┐
-                       │       TOOLS       │
-                       │ External APIs /   │
-                       │ Automation / Web  │
-                       └───────────────────┘
+                        ┌────────────────────┐
+                        │       USER         │
+                        └─────────┬──────────┘
+                                  │
+                                  ▼
+                        ┌────────────────────┐
+                        │       ANISA        │
+                        │    AI Assistant    │
+                        └─────────┬──────────┘
+                                  │
+                                  ▼
+                   ┌──────────────────────────────┐
+                   │      CHIEF COORDINATOR       │
+                   │ Task Decomposition & Routing │
+                   └──────────────┬───────────────┘
+                                  │
+              ┌───────────────────┼───────────────────┐
+              ▼                   ▼                   ▼
+       ┌─────────────┐     ┌─────────────┐     ┌─────────────┐
+       │ Engineering │     │  Research   │     │ Operations  │
+       │   (Atlas)   │     │   (Iris)    │     │   (Orion)   │
+       └──────┬──────┘     └──────┬──────┘     └──────┬──────┘
+              │                   │                   │
+              └───────────────────┼───────────────────┘
+                                  ▼
+                        ┌────────────────────┐
+                        │  EXECUTION / TOOLS │
+                        │ APIs, Git, Docs    │
+                        └────────────────────┘
 ```
 
 ---
 
-## 🤖 AI Organization Roles
+## 🤖 Defined Agent Roles
 
-- **Chief Coordinator (`ai-operations-manager-chief-coordinator`)**: Decomposes user goals, prepares execution plans, delegates to specialized agents, monitors progress, and handles reviews.
-- **⚡ Atlas (Engineering)**: Backend logic, architecture design, API integrations, and code reliability.
-- **🎨 Nova (Product & Interface)**: UI/UX implementation, user-facing views, and design system alignment.
-- **🔎 Iris (Research & Intelligence)**: Information retrieval, competitive analysis, and source verification.
-- **⚙️ Orion (Operations & Execution)**: Workflow tracking, operational triggers, and automated execution.
-- **📚 Vega (Knowledge & Documentation)**: Technical specifications, organizational logs, and knowledge management.
+The organizational paradigm decomposes workloads into distinct functional roles:
+
+| Agent / Role | Focus Area | Responsibilities |
+|---|---|---|
+| **Chief Coordinator** | Management & Oversight | Goal decomposition, assignment distribution, progress monitoring, and output review. |
+| **⚡ Atlas** | Engineering & Systems | Backend logic, code architecture, integrations, and build reliability. |
+| **🎨 Nova** | UI & Product Experience | Visual layouts, user-facing interfaces, styling systems, and UX flows. |
+| **🔎 Iris** | Research & Intelligence | Information retrieval, contextual analysis, and source verification. |
+| **⚙️ Orion** | Operations & Automation | Task tracking, execution triggers, pipelines, and state transitions. |
+| **📚 Vega** | Knowledge Management | Technical specifications, team memory, and project documentation. |
+
+---
+
+## ✨ Features
+
+- **Spatial Virtual Office Visualizer**: Top-down interactive interface (`Anisa-HQ/index.html` and `Офис агентов.html`) representing agents within dedicated room workspaces.
+- **Iterative Prototype Archive**: Historical prototypes showing evolution across chat interfaces, room flow concepts, top-down layouts, and skin themes (`Anisa-HQ/archive/`).
+- **Node.js Bot Runtime**: Companion bot runtime with entry point at `Anisa-HQ/bot/src/index.js` and automated start scripts (`Anisa-HQ/bot/start.bat`).
+- **Bilingual Documentation**: Architectural breakdown available in both English and Russian (`Офис агентов.md`).
+- **Zero External Dependencies for UI**: All frontend office visualizations run directly in any standard browser without bundling or build pipelines.
+
+---
+
+## 🛠️ Technology Stack
+
+- **Frontend / Prototyping**: HTML5, CSS3, Vanilla JavaScript (DOM & Canvas manipulation)
+- **Bot Runtime**: Node.js (v18+), CommonJS / ES6 modules
+- **Workflows & Automation**: Windows Batch scripts (`start.bat`, `push.bat`), GitHub Actions (`.github/workflows/`)
 
 ---
 
@@ -73,36 +89,29 @@ This repository houses the conceptual specifications, spatial browser-based visu
 
 ```text
 .github/
-└── workflows/             # CI and repository workflows
+└── workflows/                       # Automation workflows
+    └── daily-maintenance.yml
 Anisa-HQ/
-├── bot/                   # Node.js orchestration bot service
+├── bot/                             # Node.js orchestration bot
 │   ├── src/
-│   │   └── index.js       # Bot application entrypoint
-│   ├── package.json       # Node.js dependencies and scripts
-│   ├── start.bat          # Windows batch runner for bot
-│   ├── CLAUDE.md          # Bot developer guidelines
-│   └── README.md          # Bot service documentation
-├── archive/               # Historical office visualization prototypes
-│   ├── chat-prototype.html
-│   ├── office-v3-rooms-and-flow.html
-│   ├── office-v5-topdown.html
-│   └── office-v6-skins.html
-├── index.html             # Primary interactive office visualization
-├── push.bat               # Repository management script
-└── README.md              # HQ submodule documentation
-Офис агентов.html          # Russian localized office visualization prototype
-Офис агентов.md            # Detailed Russian agent office specification
-LICENSE                    # Repository license
-README.md                  # Main repository documentation
+│   │   └── index.js                 # Bot entry point
+│   ├── package.json                 # Bot package manifest
+│   ├── start.bat                    # Windows startup script
+│   ├── CLAUDE.md                    # Bot guidelines
+│   └── README.md                    # Bot documentation
+├── archive/                         # Visualizer iteration prototypes
+│   ├── chat-prototype.html          # Chat-focused agent interface
+│   ├── office-v3-rooms-and-flow.html# Multi-room workflow mockup
+│   ├── office-v5-topdown.html       # 2D top-down office visualizer
+│   └── office-v6-skins.html         # Themed office layout variants
+├── index.html                       # Primary interactive office visualization
+├── push.bat                         # Quick sync script
+└── README.md                        # Submodule overview
+Офис агентов.html                    # Localized Russian office interface
+Офис агентов.md                      # Detailed operational specification (RU)
+LICENSE                              # MIT License
+README.md                            # Project documentation
 ```
-
----
-
-## 🛠️ Technology Stack
-
-- **Bot Engine**: Node.js (v18+ recommended), JavaScript (CommonJS/ES6+)
-- **Interactive Office Interfaces**: HTML5, CSS3, Vanilla JavaScript (Canvas / DOM manipulation, top-down spatial layouts)
-- **Specification & Design**: Markdown documentation and interactive prototypes
 
 ---
 
@@ -110,78 +119,79 @@ README.md                  # Main repository documentation
 
 ### Prerequisites
 
-- A modern web browser (Chrome, Firefox, Safari, Edge)
-- [Node.js](https://nodejs.org/) (version 18.x or later) and `npm` (for the bot service)
+- A modern web browser (Google Chrome, Mozilla Firefox, Apple Safari, or Microsoft Edge).
+- [Node.js](https://nodejs.org/) (version 18.0.0 or higher) and `npm` for the companion bot service.
 
-### 1. Running the Interactive Office Interfaces
+### 1. Running the Interactive Visualizers
 
-The office visualizers are standalone web interfaces and require no build step.
+Because the visualization interfaces are vanilla HTML, CSS, and JavaScript, no build process is required:
 
-- **Option A (Direct Browser Open):** Double-click `Anisa-HQ/index.html` or `Офис агентов.html` in your file explorer.
-- **Option B (Local Static Server):**
-  ```bash
-  # Using Python built-in HTTP server
-  python -m http.server 8000
+#### Direct Open
+Open `Anisa-HQ/index.html` or `Офис агентов.html` directly in your web browser.
 
-  # Or using Node.js npx serve
-  npx serve .
-  ```
-  Open `http://localhost:8000/Anisa-HQ/` in your browser.
-
-### 2. Running the Bot Service
-
-The bot service is located in `Anisa-HQ/bot`.
+#### Local Development Server
+To run with a local HTTP server:
 
 ```bash
-# Navigate to the bot directory
-cd Anisa-HQ/bot
+# Using Python 3 built-in HTTP server
+python -m http.server 8000
 
-# Install dependencies
-npm install
-
-# Run the bot
-npm start
-# or directly with Node:
-node src/index.js
+# Or using Node.js npx
+npx serve .
 ```
 
-On Windows systems, you can also launch the bot using `Anisa-HQ/bot/start.bat`.
+Navigate to `http://localhost:8000/Anisa-HQ/index.html` or `http://localhost:8000/Офис агентов.html`.
+
+### 2. Running the Companion Bot Service
+
+To install and start the bot service located under `Anisa-HQ/bot`:
+
+```bash
+# 1. Navigate to the bot directory
+cd Anisa-HQ/bot
+
+# 2. Install dependencies
+npm install
+
+# 3. Start the bot service
+npm start
+```
+
+On Windows systems, you can also execute `start.bat` directly from the `Anisa-HQ/bot/` directory.
 
 ---
 
-## 🗺️ Architectural Concept
+## 🔄 Task Lifecycle Protocol
 
-### Spatial Office Representation
-
-The prototypes in `Anisa-HQ/index.html` and `Anisa-HQ/archive/` explore spatial UI representations where agents occupy visual "rooms" corresponding to operational departments:
-
-- **Command Center / CEO Office**: Coordination and overall status.
-- **Engineering**: Development, review, and integration queues.
-- **Research**: Data gathering and document parsing.
-- **Operations**: Workflow automation and execution monitoring.
-- **Knowledge Room**: Project memory and documentation indexing.
-
-### Task Lifecycle
-
-Tasks within the ANISA model flow through controlled stages:
+Tasks delegated by the Chief Coordinator follow a deterministic lifecycle:
 
 ```text
-CREATED ──► PLANNED ──► ASSIGNED ──► IN PROGRESS ──► REVIEW ──► COMPLETED
-                                                            └──► FAILED / BLOCKED
+[ CREATED ] ──► [ PLANNED ] ──► [ ASSIGNED ] ──► [ IN PROGRESS ] ──► [ REVIEW ] ──► [ COMPLETED ]
+                                                                          │
+                                                                          └──► [ BLOCKED / REVISE ]
 ```
+
+1. **Created**: High-level goal received from the user.
+2. **Planned**: Work decomposed into actionable sub-tasks with defined dependencies.
+3. **Assigned**: Routed to the appropriate agent (Atlas, Nova, Iris, Orion, or Vega).
+4. **In Progress**: Active execution using designated tools or reasoning steps.
+5. **Review**: Validation against specification criteria by the Chief Coordinator.
+6. **Completed**: Final integration and delivery to user.
 
 ---
 
 ## 🤝 Contributing
 
+Contributions, improvements, and architectural suggestions are welcome:
+
 1. Fork the repository.
-2. Create a feature branch (`git checkout -b feature/improvement`).
+2. Create a feature branch (`git checkout -b feature/agent-enhancement`).
 3. Commit your changes with clear, descriptive commit messages.
-4. Push to the branch (`git push origin feature/improvement`).
-5. Open a Pull Request.
+4. Push to the branch (`git push origin feature/agent-enhancement`).
+5. Open a Pull Request with a clear description of the modifications.
 
 ---
 
 ## 📄 License
 
-This project is licensed under the terms defined in the [LICENSE](LICENSE) file.
+This project is distributed under the terms of the [MIT License](LICENSE).
