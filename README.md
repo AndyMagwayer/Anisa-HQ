@@ -56,17 +56,10 @@ Anisa-HQ/
 
 ## Регламент технического обслуживания
 
-> **David Autonomous Maintenance**: Ревизия документации, верификация архитектуры и аудит контрольного среза выполнены в **10/14/2026, 06:31:06** (Asia/Tashkent). Все спецификации синхронизированы с репозиторием.
+> **David Autonomous Maintenance**: Ревизия документации, верификация архитектуры и аудит контрольного среза выполнены в **10/16/2026, 10:01:06** (Asia/Tashkent). Все спецификации синхронизированы с репозиторием.
 
 ---
 
 ## Лицензия
 
 Распространяется на условиях лицензии проекта (см. LICENSE).
-
-## Automated Maintenance Log
-
-| Timestamp (UTC) | Workflow outcome | Details |
-|---|---|---|
-| 2026-10-14 19:10 UTC | success | Install: not-applicable;Lint: not-applicable;Test: not-applicable;Build/compile: not-applicable |
-| 2026-10-15 18:53 UTC | success | Install: not-applicable;Lint: not-applicable;Test: not-applicable;Build/compile: not-applicable |
