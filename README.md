@@ -63,4 +63,4 @@ Anisa-HQ/
 ## Лицензия
 
 Распространяется на условиях лицензии проекта (см. LICENSE).
-<!-- David Maintenance Verified: 2026-10-17 10:52:01 (Asia/Tashkent) -->
+<!-- David Maintenance Verified: 2026-10-17 16:56:26 (Asia/Tashkent) -->
