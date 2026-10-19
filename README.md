@@ -8,26 +8,24 @@ Anisa HQ serves as the operational headquarters and visual interface for managin
 
 Anisa HQ provides interactive dashboards and operational artifacts for visualizing autonomous agent roles and monitoring office task flows. The project combines standalone HTML5/JavaScript simulation dashboards with a Node.js backend agent runner and historical layout iterations.
 
-## Features Grounded in Repository Contents
+## Features
 
-- **Interactive Agent Workspace (`Офис агентов.html` & `Anisa-HQ/index.html`)**: Interactive web interfaces representing agent rooms, status flows, and workspace operations.
-- **Agent Operational Protocols (`Офис агентов.md`)**: Detailed operational specifications, roles, and agent hierarchy documentation.
-- **Agent Bot Automation (`Anisa-HQ/bot/`)**: Node.js-based backend bot runtime (`src/index.js`) for background agent processing and task orchestration.
-- **UI Evolution Archive (`Anisa-HQ/archive/`)**: Historical prototypes including top-down office views (`office-v5-topdown.html`), room flows (`office-v3-rooms-and-flow.html`), skin customization (`office-v6-skins.html`), and early chat interfaces (`chat-prototype.html`).
-- **Convenience Scripts**: Windows batch scripts (`push.bat`, `start.bat`) for quick agent execution and git updates.
+- **Interactive Agent Workspace**: Dashboards (`Офис агентов.html`, `Anisa-HQ/index.html`) representing agent rooms and workspace operations.
+- **Agent Operational Protocols**: Detailed specifications and hierarchy documentation in `Офис агентов.md`.
+- **Agent Bot Automation**: A Node.js-based runtime located in `Anisa-HQ/bot/` for task orchestration.
+- **UI Evolution Archive**: A repository of historical prototypes, including room flows, top-down layouts, and experimental skin customizations.
 
 ## Technology Stack
 
 - **Frontend**: HTML5, Vanilla JavaScript, CSS3
-- **Backend / Bot**: Node.js (`Anisa-HQ/bot/src/index.js`)
-- **Package Management**: npm (`Anisa-HQ/bot/package.json`)
-- **CI/CD**: GitHub Actions (`.github/workflows/david-maintenance.yml`)
+- **Backend**: Node.js
+- **Automation**: Batch scripts for local environment task execution
 
 ## Prerequisites
 
 - **Node.js**: v16.0.0 or higher
 - **npm**: v7.0.0 or higher
-- A modern web browser supporting modern HTML5 standards
+- A modern web browser
 
 ## Installation & Setup
 
@@ -41,64 +39,41 @@ Anisa HQ provides interactive dashboards and operational artifacts for visualizi
    ```bash
    cd Anisa-HQ/bot
    npm install
-   cd ../..
    ```
 
 ## Running & Development
 
-### Running the Workspace Dashboard
-
-Open `Офис агентов.html` or `Anisa-HQ/index.html` directly in your browser, or serve the repository locally using any static web server:
-
+### Web Interface
+Open `Офис агентов.html` or `Anisa-HQ/index.html` in your browser. Alternatively, serve the files locally:
 ```bash
-# Using npx serve
 npx serve .
-
-# Or using Python
-python -m http.server 8000
 ```
 
-Navigate to `http://localhost:8000/Офис агентов.html` or `http://localhost:8000/Anisa-HQ/index.html`.
-
-### Running the Agent Bot Service
-
-To run the background bot service:
-
+### Agent Bot
+To start the agent service:
 ```bash
 cd Anisa-HQ/bot
 node src/index.js
 ```
-
-On Windows systems, you can also execute:
-
-```cmd
-Anisa-HQ\bot\start.bat
-```
+*Note: On Windows, you may use `Anisa-HQ\bot\start.bat`.*
 
 ## Project Structure
 
 ```text
 .
-├── .github/
-│   └── workflows/            # Repository workflows and maintenance automation
-├── Anisa-HQ/                 # Web application assets and bot service
-│   ├── archive/              # Prototypes (chat, room flows, top-down layouts, skins)
-│   ├── bot/                  # Node.js bot implementation (package.json, src/index.js)
-│   ├── index.html            # Main web workspace interface
-│   └── push.bat              # Automation script for synchronization
-├── Офис агентов.html         # Interactive agent headquarters workspace UI
-├── Офис агентов.md           # Agent operational guidelines and specifications
-├── LICENSE                   # License terms
-└── README.md                 # Project documentation
+├── .github/workflows/        # CI/CD maintenance
+├── Anisa-HQ/
+│   ├── archive/              # Historical UI prototypes
+│   ├── bot/                  # Node.js bot logic
+│   ├── index.html            # Workspace dashboard
+│   └── push.bat              # Git synchronization script
+├── Офис агентов.html         # Main agent HQ UI
+├── Офис агентов.md           # Operational documentation
+└── README.md
 ```
 
 ## Contribution Guidelines
 
-1. Ensure changes do not break standalone static HTML execution.
-2. Keep bot dependencies lean and declared inside `Anisa-HQ/bot/package.json`.
-3. Verify workflows pass on push and follow standard Git commit conventions.
-
-## License
-
-This project is licensed under the terms of the [LICENSE](LICENSE) file located in the root directory.
-<!-- David Maintenance Verified: 2026-10-19 11:30:43 (Asia/Tashkent) -->
+1. Maintain compatibility with standalone static HTML execution.
+2. Keep bot dependencies minimized.
+3. Ensure all changes follow standard Git commit conventions.
