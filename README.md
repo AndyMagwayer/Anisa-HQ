@@ -75,4 +75,4 @@ node src/index.js
 1. Keep UI dashboards as standalone files (no external bundlers).
 2. Maintain bot logic modularity within `Anisa-HQ/bot/src/`.
 3. Follow conventional commit message standards for all PRs.
-<!-- David Maintenance Verified: 2026-10-20 01:16:26 (Asia/Tashkent) -->
+<!-- David Maintenance Verified: 2026-10-20 03:15:41 (Asia/Tashkent) -->
