@@ -8,14 +8,14 @@ Anisa HQ is a workspace simulation suite for modeling autonomous multi-agent wor
 
 ## Project Overview
 
-The repository combines static, zero-dependency browser simulations with a Node.js-based bot runtime and architectural design documentation.
+The repository combines zero-dependency browser-based visual simulations with a Node.js bot runtime and comprehensive architectural documentation.
 
-## Key Components
+## Key Features
 
-- **Agent HQ Dashboard (`Офис агентов.html` & `Anisa-HQ/index.html`)**: Browser-based visualization of agent workstations and task pipelines.
-- **Agent Architecture (`Офис агентов.md`)**: Operational protocols and role hierarchy definitions.
-- **Orchestration Bot (`Anisa-HQ/bot/`)**: Node.js runtime for agent logic execution.
-- **Prototyping Archive (`Anisa-HQ/archive/`)**: Historical record of layout experiments and UI iterations.
+- **Agent HQ Dashboard (`Офис агентов.html` & `Anisa-HQ/index.html`)**: Interactive browser-based visualization of agent workstations, rooms, and task pipelines.
+- **Agent Architecture & Protocols (`Офис агентов.md` & `Anisa-HQ/bot/CLAUDE.md`)**: Operational guidelines, role hierarchy definitions, and bot instructions.
+- **Orchestration Bot (`Anisa-HQ/bot/`)**: Node.js service for agent logic execution and automation.
+- **Prototyping Archive (`Anisa-HQ/archive/`)**: Historical record of layout experiments, room flows, top-down views, and skin iterations.
 
 ## Technology Stack
 
@@ -25,8 +25,8 @@ The repository combines static, zero-dependency browser simulations with a Node.
 
 ## Prerequisites
 
-- **Node.js**: `v16.0.0` or higher
-- **Browser**: Chrome, Firefox, or Edge
+- **Node.js**: `v16.0.0` or higher (for the bot service)
+- **Browser**: Any modern web browser (Chrome, Firefox, Safari, Edge) for dashboard simulations
 
 ## Installation & Setup
 
@@ -36,7 +36,7 @@ The repository combines static, zero-dependency browser simulations with a Node.
    cd Anisa-HQ
    ```
 
-2. Initialize the bot runtime:
+2. Install bot dependencies:
    ```bash
    cd Anisa-HQ/bot
    npm install
@@ -45,34 +45,33 @@ The repository combines static, zero-dependency browser simulations with a Node.
 ## Running the Project
 
 ### Web Simulations
-Simply open `Офис агентов.html` or `Anisa-HQ/index.html` in your preferred web browser. No compilation is required.
+Open either `Офис агентов.html` or `Anisa-HQ/index.html` directly in your web browser. No compilation or server setup is required for the frontend dashboards.
 
 ### Agent Bot Service
-From the project root:
+Run the Node.js bot runtime from the command line:
 ```bash
 cd Anisa-HQ/bot
 node src/index.js
 ```
-*Windows users can alternatively execute `Anisa-HQ\bot\start.bat`.*
+*Alternatively, Windows users can execute `Anisa-HQ\bot\start.bat`.*
 
 ## Repository Structure
 
 ```text
 ./
-├── .github/                # Workflow automation
+├── .github/                # GitHub workflows and maintenance automation
 ├── Anisa-HQ/
-│   ├── archive/            # Layout experiments
-│   ├── bot/                # Node.js runtime
-│   ├── index.html          # Dashboard
-│   └── push.bat            # Deployment helper
-├── Офис агентов.html       # Primary dashboard
-├── Офис агентов.md         # Operational docs
-└── README.md               # This document
+│   ├── archive/            # Historical layout and UI experiments
+│   ├── bot/                # Node.js bot runtime & configuration
+│   ├── index.html          # Secondary dashboard UI
+│   └── push.bat            # Helper script for repository updates
+├── Офис агентов.html       # Primary agent office dashboard
+├── Офис агентов.md         # Operational documentation and role specs
+└── README.md               # Project documentation
 ```
 
 ## Contribution Guidelines
 
-1. Keep UI dashboards as standalone files (no external bundlers).
-2. Maintain bot logic modularity within `Anisa-HQ/bot/src/`.
-3. Follow conventional commit message standards for all PRs.
-<!-- David Maintenance Verified: 2026-10-21 11:18:04 (Asia/Tashkent) -->
+1. Keep frontend dashboards as standalone files without external bundlers.
+2. Maintain modularity within the bot runtime (`Anisa-HQ/bot/src/`).
+3. Follow conventional commit message standards for all pull requests.
