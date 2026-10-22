@@ -75,4 +75,3 @@ node src/index.js
 1. Maintain frontend files as standalone modules.
 2. Keep bot logic modular within `Anisa-HQ/bot/src/`.
 3. Ensure all pull requests follow conventional commit message standards.
-<!-- David Maintenance Verified: 2026-10-22 02:32:08 (Asia/Tashkent) -->
