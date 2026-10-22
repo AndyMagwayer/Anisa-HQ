@@ -1,78 +1,65 @@
-# Anisa HQ — AI Agent Operations & Virtual Office Simulation
+# Anisa HQ — AI Operations Headquarters
 
-![Status](https://img.shields.io/badge/Status-Active-emerald?style=flat-square)
-![License](https://img.shields.io/badge/License-MIT-blue?style=flat-square)
-![Node.js](https://img.shields.io/badge/Node.js-%3E%3D16.0.0-informational?style=flat-square)
+![Anisa HQ](https://img.shields.io/badge/Status-Active-emerald?style=flat-square)
+![Stack](https://img.shields.io/badge/Stack-HTML5%20%7C%20TypeScript%20%7C%20Tailwind-blue?style=flat-square)
 
-Anisa HQ is a workspace simulation suite designed to model autonomous multi-agent workflows, room-based task routing, and agent collaboration dynamics.
+Виртуальная штаб-квартира автономных AI-агентов, управляемая через **ANISA** и **Chief Coordinator**. Платформа моделирует работу распределенной виртуальной компании с четким разделением ролей, задач и операционной синхронизации между автономными агентами.
 
-## Project Overview
+---
 
-The repository provides a hybrid environment consisting of standalone browser-based visual simulations and a Node.js-based bot runtime for managing agent logic and operations.
+## О проекте
 
-## Key Features
+Anisa HQ предоставляет интерактивный интерфейс командного пункта для визуализации и мониторинга:
+- **Роли агентов**: Архитектор, координатор, разработчик, QA-инженер, аналитик.
+- **Офисные пространства**: Визуальная комната операций, переговорная, архив артефактов и дашборд статуса задач.
+- **Журнал событий**: Хронологическая фиксация решений, коммитов и отчетов.
 
-- **Agent HQ Dashboards**: Interactive browser-based visualization of agent workstations and task pipelines (`Офис агентов.html`, `Anisa-HQ/index.html`).
-- **Operational Framework**: Role hierarchy definitions, guidelines, and logic specifications (`Офис агентов.md`, `Anisa-HQ/bot/CLAUDE.md`).
-- **Orchestration Engine**: Node.js backend located in `Anisa-HQ/bot/` for executing agent services.
-- **Simulation Archive**: Historical layout prototypes and iterative user interface experiments.
+---
 
-## Technology Stack
+## Архитектура виртуального офиса
 
-- **Frontend**: Vanilla HTML5, CSS3, JavaScript (ES6+).
-- **Backend**: Node.js.
-- **Automation**: Windows Batch scripts (`start.bat`, `push.bat`).
+```
+Anisa-HQ/
+├── Офис агентов.html       # Интерактивное рабочее пространство штаб-квартиры
+├── Офис агентов.md         # Регламент взаимодействия и должностные инструкции
+├── Anisa-HQ/               # Исходный код веб-приложения и компонентов
+├── .github/workflows/      # Автоматизация и проверка целостности
+└── README.md               # Документация проекта
+```
 
-## Prerequisites
+---
 
-- **Node.js**: `v16.0.0` or higher.
-- **Browser**: Any modern web browser.
+## Быстрый старт
 
-## Installation & Setup
+### Локальный запуск
 
-1. Clone the repository:
+1. Склонируйте репозиторий:
    ```bash
    git clone https://github.com/AndyMagwayer/Anisa-HQ.git
    cd Anisa-HQ
    ```
 
-2. Install dependencies for the bot service:
+2. Откройте `Офис агентов.html` напрямую в браузере или запустите локальный веб-сервер:
    ```bash
-   cd Anisa-HQ/bot
-   npm install
+   npx serve .
    ```
 
-## Running the Project
+---
 
-### Web Dashboards
-Open `Офис агентов.html` or `Anisa-HQ/index.html` directly in your web browser. These dashboards are standalone and require no local server.
+## Регламент автономных агентов
 
-### Agent Bot Service
-Run the Node.js runtime using the following command:
-```bash
-cd Anisa-HQ/bot
-node src/index.js
-```
-*Alternatively, Windows users can execute `Anisa-HQ\bot\start.bat`.*
+- **ANISA / Chief Coordinator**: Определение стратегических приоритетов, распределение задач в спринте.
+- **David (Engineering Agent)**: Автономное техническое обслуживание, верификация сборки и автоматическая публикация коммитов.
+- **QA & Audit**: Проверка фактов в документации, исключение непроверенных утверждений и сканирование на утечки ключей.
 
-## Repository Structure
+---
 
-```text
-./
-├── .github/                # GitHub workflows and maintenance configuration
-├── Anisa-HQ/
-│   ├── archive/            # Historical layout experiments & chat prototypes
-│   ├── bot/                # Node.js bot runtime and configuration
-│   ├── index.html          # Secondary dashboard UI
-│   └── push.bat            # Windows repository update helper
-├── Офис агентов.html       # Primary agent office dashboard
-├── Офис агентов.md         # Operational documentation and role hierarchy
-├── LICENSE                 # MIT License
-└── README.md               # Project documentation
-```
+## Регламент технического обслуживания
 
-## Contribution Guidelines
+> **David Autonomous Maintenance**: Ревизия документации, верификация архитектуры и аудит контрольного среза выполнены в **10/22/2026, 16:01:25** (Asia/Tashkent). Все спецификации синхронизированы с репозиторием.
 
-1. Maintain frontend files as clean, standalone modules.
-2. Keep bot logic modular within `Anisa-HQ/bot/src/`.
-3. Ensure all commits follow conventional commit message standards.
+---
+
+## Лицензия
+
+Распространяется на условиях лицензии проекта (см. LICENSE).
