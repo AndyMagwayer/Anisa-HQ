@@ -8,14 +8,14 @@ Anisa HQ is a workspace simulation suite designed to model autonomous multi-agen
 
 ## Project Overview
 
-The repository combines zero-dependency browser-based visual simulations with a Node.js-based bot runtime and comprehensive operational documentation for agent-driven environments.
+The repository provides a hybrid environment consisting of zero-dependency browser-based visual simulations and a Node.js-based bot runtime for managing agent logic.
 
 ## Key Features
 
 - **Agent HQ Dashboards**: Browser-based visualization of agent workstations and task pipelines (`Офис агентов.html`, `Anisa-HQ/index.html`).
 - **Operational Framework**: Role hierarchy definitions and logic specifications (`Офис агентов.md`, `Anisa-HQ/bot/CLAUDE.md`).
-- **Orchestration Engine**: Node.js backend for agent logic execution (`Anisa-HQ/bot/`).
-- **Simulation Archive**: Historical data of layout experiments and UI iterations (`Anisa-HQ/archive/`).
+- **Orchestration Engine**: Node.js backend for agent logic execution located in `Anisa-HQ/bot/`.
+- **Simulation Archive**: Historical data of layout experiments and UI iterations.
 
 ## Technology Stack
 
@@ -26,7 +26,7 @@ The repository combines zero-dependency browser-based visual simulations with a 
 ## Prerequisites
 
 - **Node.js**: `v16.0.0` or higher.
-- **Browser**: Modern web browser (Chrome, Firefox, Safari, or Edge).
+- **Browser**: Any modern web browser.
 
 ## Installation & Setup
 
@@ -59,14 +59,14 @@ node src/index.js
 
 ```text
 ./
-├── .github/                # GitHub workflows and maintenance automation
+├── .github/                # GitHub workflows and maintenance
 ├── Anisa-HQ/
-│   ├── archive/            # Historical layout and UI experiments
-│   ├── bot/                # Node.js bot runtime & configuration
+│   ├── archive/            # Historical layout experiments
+│   ├── bot/                # Node.js bot runtime
 │   ├── index.html          # Secondary dashboard UI
-│   └── push.bat            # Helper script for repository updates
+│   └── push.bat            # Repository update helper
 ├── Офис агентов.html       # Primary agent office dashboard
-├── Офис агентов.md         # Operational documentation and role specs
+├── Офис агентов.md         # Operational documentation
 └── README.md               # Project documentation
 ```
 
