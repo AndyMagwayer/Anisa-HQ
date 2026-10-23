@@ -92,4 +92,4 @@ npm start
 ## Лицензия
 
 Распространяется на условиях лицензии проекта (см. [LICENSE](LICENSE)).
-<!-- David Maintenance Verified: 2026-10-23 22:45:29 (Asia/Tashkent) -->
+<!-- David Maintenance Verified: 2026-10-23 23:46:14 (Asia/Tashkent) -->
