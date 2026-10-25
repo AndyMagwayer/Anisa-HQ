@@ -1,19 +1,17 @@
 # Anisa HQ — AI Operations Headquarters
 
-![Status](https://img.shields.io/badge/Status-Active-emerald?style=flat-square)
-
-Anisa HQ is a centralized command platform for managing autonomous AI agents. It provides a visual interface for operations, task delegation, and historical archiving of agent activities.
+Anisa HQ is a centralized command and visualization platform for managing autonomous AI agent environments. It integrates visual office prototypes with a Node.js-based orchestration backend.
 
 ## Project Overview
 
-This repository serves as the interface and orchestration layer for AI agent management. It combines frontend visual dashboards with a Node.js backend to facilitate agent operations within a simulated office environment.
+This repository provides the infrastructure for an agent-based office simulation. It includes interactive frontend dashboards and the necessary backend logic to manage agent tasks, state, and historical design iterations.
 
 ## Features
 
-- **Visual Dashboards**: Integrated office interfaces (`Офис агентов.html`, `Anisa-HQ/index.html`) for monitoring and interaction.
-- **Agent Orchestration**: Backend logic located in `Anisa-HQ/bot/` for managing task execution.
-- **Design History**: Iterative office prototypes maintained in `Anisa-HQ/archive/`.
-- **Automation**: Repository management scripts (`push.bat`, `start.bat`) included for workflow efficiency.
+- **Visual Dashboards**: Interactive office interfaces for monitoring agent environments (`Офис агентов.html`, `Anisa-HQ/index.html`).
+- **Agent Orchestration**: A Node.js backend located in `/Anisa-HQ/bot/` for task execution and system control.
+- **Design History**: A curated archive of architectural prototypes and UI iterations (`/Anisa-HQ/archive/`).
+- **Utility Automation**: Repository management scripts (`push.bat`, `start.bat`) to streamline local development.
 
 ## Project Structure
 
@@ -25,7 +23,7 @@ This repository serves as the interface and orchestration layer for AI agent man
 │   ├── bot/                    # Node.js backend logic
 │   └── index.html              # Main frontend dashboard
 ├── Офис агентов.html           # Primary interactive office interface
-├── Офис агентов.md             # Operational protocols and documentation
+├── Офис агентов.md             # Operational protocols
 └── README.md                   # Project documentation
 ```
 
@@ -42,18 +40,17 @@ This repository serves as the interface and orchestration layer for AI agent man
 
 ## Installation & Setup
 
-### 1. Repository Setup
-```bash
-git clone https://github.com/AndyMagwayer/Anisa-HQ.git
-cd Anisa-HQ
-```
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/AndyMagwayer/Anisa-HQ.git
+   cd Anisa-HQ
+   ```
 
-### 2. Backend Initialization
-Navigate to the bot directory to configure the agent controller:
-```bash
-cd Anisa-HQ/bot
-npm install
-```
+2. Navigate to the backend directory and install dependencies:
+   ```bash
+   cd Anisa-HQ/bot
+   npm install
+   ```
 
 ## Running the Project
 
@@ -61,23 +58,18 @@ npm install
 Open `Офис агентов.html` or `Anisa-HQ/index.html` in any modern web browser.
 
 ### Agent Bot
-Run the backend service via the provided script or command:
+Run the backend service via the following command:
 ```bash
-# Windows
-cd Anisa-HQ/bot
-start.bat
-
-# Cross-platform
 cd Anisa-HQ/bot
 npm start
 ```
 
 ## Contribution Guidelines
 
-1. Ensure all changes are documented in the relevant `.md` files.
-2. When updating the bot, ensure `package.json` reflects all new dependencies.
-3. Verify UI updates against existing architecture in `/archive` to maintain consistency.
-4. Submit a Pull Request describing the changes to the system logic or UI flow.
+1. Document all significant changes in relevant `.md` files.
+2. Ensure `package.json` is updated when adding new dependencies.
+3. Maintain architectural consistency by referencing `/archive` before modifying UI components.
+4. Submit a Pull Request with a clear description of the system logic or UI flow improvements.
 
 ## License
 
