@@ -1,95 +1,80 @@
 # Anisa HQ — AI Operations Headquarters
 
-![Anisa HQ](https://img.shields.io/badge/Status-Active-emerald?style=flat-square)
-![Stack](https://img.shields.io/badge/Stack-HTML5%20%7C%20JavaScript%20%7C%20Node.js-blue?style=flat-square)
+![Status](https://img.shields.io/badge/Status-Active-emerald?style=flat-square)
 
-Виртуальная штаб-квартира автономных AI-агентов, управляемая через **ANISA** и **Chief Coordinator**. Платформа моделирует работу распределенной виртуальной компании с четким разделением ролей, задач и операционной синхронизации между автономными агентами.
+Anisa HQ is a centralized command platform for managing autonomous AI agents. It provides a visual interface for operations, task delegation, and historical archiving of agent activities.
 
----
+## Project Overview
 
-## О проекте
+This repository acts as the bridge between web-based visual management (the "Office") and the backend Node.js bot orchestration layer. It is designed to model a distributed AI company environment.
 
-Anisa HQ предоставляет интерактивный интерфейс командного пункта для визуализации и мониторинга работы агентов, управления задачами и доступа к архиву операционных артефактов.
-
----
-
-## Структура проекта
+## Project Structure
 
 ```text
-Anisa-HQ/
-├── .github/workflows/          # Автоматизация и обслуживание (GitHub Actions)
-├── Anisa-HQ/                   # Исходный код веб-интерфейса и бота
-│   ├── archive/                # Исторические прототипы и макеты офиса
-│   ├── bot/                    # Бот-сервис на Node.js
-│   └── index.html              # Главная точка входа веб-приложения
-├── Офис агентов.html           # Интерактивное рабочее пространство штаб-квартиры
-├── Офис агентов.md             # Регламент взаимодействия и должностные инструкции
-└── README.md                   # Документация проекта
+./
+├── .github/workflows/          # CI/CD and automation pipelines
+├── Anisa-HQ/                   # Core application directory
+│   ├── archive/                # Historical office prototypes and designs
+│   ├── bot/                    # Node.js backend logic and bot implementation
+│   └── index.html              # Main frontend dashboard entry point
+├── Офис агентов.html           # Interactive office interface
+├── Офис агентов.md             # Operational documentation and agent protocols
+└── README.md                   # This documentation
 ```
 
----
+## Technology Stack
 
-## Технологический стек
+- **Frontend**: HTML5, Vanilla JavaScript
+- **Backend**: Node.js
+- **Utilities**: GitHub Actions, Windows Batch scripts
 
-- **Frontend**: HTML5, CSS3, JavaScript
-- **Backend / Bot**: Node.js
-- **Automation**: GitHub Actions, Batch scripts (`.bat`)
+## Prerequisites
 
----
+- **Node.js**: v18.x or higher
+- **Git**: For repository management
 
-## Системные требования
+## Installation & Setup
 
-Для запуска и разработки проекта необходимы:
-- **Node.js** (версия 18.x или выше)
-- Современный веб-браузер
-
----
-
-## Установка и запуск
-
-### 1. Клонирование репозитория
-
+### 1. Repository Setup
 ```bash
 git clone https://github.com/AndyMagwayer/Anisa-HQ.git
 cd Anisa-HQ
 ```
 
-### 2. Запуск веб-интерфейса
-
-Вы можете открыть `Офис агентов.html` или `Anisa-HQ/index.html` напрямую в браузере либо использовать локальный сервер:
-
-```bash
-npx serve .
-```
-
-### 3. Запуск бота
-
-Перейдите в директорию бота и установите зависимости:
-
+### 2. Backend Initialization
+Navigate to the bot directory to configure the agent controller:
 ```bash
 cd Anisa-HQ/bot
 npm install
 ```
 
-Запуск бота:
+## Running the Project
 
+### Web Interface
+Open `Офис агентов.html` or `Anisa-HQ/index.html` in any modern web browser. For development, you may use a local server:
 ```bash
+npx serve .
+```
+
+### Agent Bot
+Run the backend service via the provided script or command:
+```bash
+# Windows
+cd Anisa-HQ/bot
+start.bat
+
+# Cross-platform
+cd Anisa-HQ/bot
 npm start
 ```
 
-Или с помощью скрипта автоматизации `start.bat` на Windows.
+## Contribution Guidelines
 
----
+1. Ensure all changes are documented in the relevant `.md` files.
+2. When updating the bot, ensure `package.json` reflects all new dependencies.
+3. Verify UI updates against existing architecture in `/archive` to maintain consistency.
+4. Submit a Pull Request describing the changes to the system logic or UI flow.
 
-## Разработка и вклад в проект
+## License
 
-1. Создайте ветку для вашей задачи (`git checkout -b feature/name`).
-2. Внесите изменения и проверьте работоспособность.
-3. Создайте Pull Request в соответствии с принятыми регламентами разработки.
-
----
-
-## Лицензия
-
-Распространяется на условиях лицензии проекта (см. [LICENSE](LICENSE)).
-<!-- David Maintenance Verified: 2026-10-26 01:43:17 (Asia/Tashkent) -->
+Distributed under the terms defined in the [LICENSE](LICENSE) file.
