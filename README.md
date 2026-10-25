@@ -8,6 +8,13 @@ Anisa HQ is a centralized command platform for managing autonomous AI agents. It
 
 This repository acts as the bridge between web-based visual management (the "Office") and the backend Node.js bot orchestration layer. It is designed to model a distributed AI company environment.
 
+## Features
+
+- **Interactive Office Interface**: Visual web-based dashboards (`Офис агентов.html`, `Anisa-HQ/index.html`) for monitoring agent activities and workspaces.
+- **Node.js Bot Orchestration**: Backend integration layer located in `Anisa-HQ/bot/` for automated agent processing and operations.
+- **Historical Prototypes**: Preserved iterations and designs in `Anisa-HQ/archive/` for reference and UI consistency.
+- **Automation Scripts**: Helper scripts (`push.bat`, `start.bat`) for streamlined repository management and service startup.
+
 ## Project Structure
 
 ```text
