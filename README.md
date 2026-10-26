@@ -18,15 +18,15 @@ Anisa-HQ is the central repository for AI agent orchestration and spatial simula
 
 ## Features
 
-- **Agent Orchestration**: Backend logic controlled via `Anisa-HQ/bot/`.
-- **Visualization**: Interactive HTML/JS interfaces for office simulations.
-- **Prototype Archive**: Versioned architectural iterations for tracking evolution.
+- **Agent Orchestration**: Backend logic managed and run via `Anisa-HQ/bot/`.
+- **Visualization**: Interactive HTML/JS interfaces for office simulations (`Офис агентов.html`, `Anisa-HQ/index.html`).
+- **Prototype Archive**: Versioned architectural iterations and past UI concepts stored in `Anisa-HQ/archive/`.
 
 ## Technology Stack
 
-- **Backend**: Node.js
-- **Frontend**: HTML5, Vanilla JavaScript
-- **Automation**: GitHub Actions, Windows Batch (.bat) scripts
+- **Backend**: Node.js (`Anisa-HQ/bot/`) — Express or lightweight HTTP server architecture.
+- **Frontend**: HTML5, CSS3, Vanilla JavaScript.
+- **Automation**: GitHub Actions, Windows Batch (`.bat`) utility scripts.
 
 ## Prerequisites
 
@@ -50,20 +50,24 @@ Anisa-HQ is the central repository for AI agent orchestration and spatial simula
 ## Running the Project
 
 ### Backend Service
-Navigate to the bot directory and execute the start script:
+Navigate to the bot directory and execute the start script or run via npm:
 ```bash
 cd Anisa-HQ/bot
 npm start
 ```
+Alternatively on Windows, use the provided start script:
+```cmd
+Anisa-HQ\bot\start.bat
+```
 
 ### Frontend
-Open `Офис агентов.html` or `Anisa-HQ/index.html` directly in any modern web browser.
+Open `Офис агентов.html` or `Anisa-HQ/index.html` directly in any modern web browser to interact with the simulation and dashboard.
 
 ## Contribution Guidelines
 
-1. Ensure all new dependencies are documented in `package.json`.
-2. Maintain consistent naming conventions within `/archive` when adding new UI iterations.
-3. Validate scripts using provided `.bat` files before pushing changes.
+1. Ensure all new dependencies are properly documented in `Anisa-HQ/bot/package.json`.
+2. Maintain consistent naming conventions within `Anisa-HQ/archive/` when adding new UI iterations.
+3. Validate local scripts using provided `.bat` files before pushing changes.
 4. Submit changes via Pull Requests with clear, concise descriptions of modified logic.
 
 ## License
