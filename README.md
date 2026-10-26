@@ -1,42 +1,37 @@
-# Anisa HQ — AI Operations Headquarters
+# Anisa-HQ
 
-Anisa HQ is a centralized command and visualization platform for managing autonomous AI agent environments. It integrates visual office prototypes with a Node.js-based orchestration backend.
-
-## Project Overview
-
-This repository provides the infrastructure for an agent-based office simulation. It includes interactive frontend dashboards and the necessary backend logic to manage agent tasks, state, and historical design iterations.
-
-## Features
-
-- **Visual Dashboards**: Interactive office interfaces for monitoring agent environments (`Офис агентов.html`, `Anisa-HQ/index.html`).
-- **Agent Orchestration**: A Node.js backend located in `/Anisa-HQ/bot/` for task execution and system control.
-- **Design History**: A curated archive of architectural prototypes and UI iterations (`/Anisa-HQ/archive/`).
-- **Utility Automation**: Repository management scripts (`push.bat`, `start.bat`) to streamline local development.
+Anisa-HQ is the central repository for AI agent orchestration and spatial simulation environments. It provides a structured workspace for managing agent logic via a Node.js backend and visual interactive interfaces.
 
 ## Project Structure
 
 ```text
 ./
-├── .github/workflows/          # CI/CD and automation pipelines
-├── Anisa-HQ/                   # Core application directory
-│   ├── archive/                # Historical office prototypes
-│   ├── bot/                    # Node.js backend logic
-│   └── index.html              # Main frontend dashboard
-├── Офис агентов.html           # Primary interactive office interface
-├── Офис агентов.md             # Operational protocols
-└── README.md                   # Project documentation
+├── .github/workflows/          # Automated maintenance workflows
+├── Anisa-HQ/
+│   ├── archive/                # Legacy prototypes and architectural iterations
+│   ├── bot/                    # Node.js orchestration backend
+│   └── index.html              # Frontend dashboard
+├── Офис агентов.html           # Primary interactive office visualization
+├── Офис агентов.md             # Operational documentation
+└── README.md
 ```
+
+## Features
+
+- **Agent Orchestration**: Backend logic controlled via `Anisa-HQ/bot/`.
+- **Visualization**: Interactive HTML/JS interfaces for office simulations.
+- **Prototype Archive**: Versioned architectural iterations for tracking evolution.
 
 ## Technology Stack
 
-- **Frontend**: HTML5, Vanilla JavaScript
 - **Backend**: Node.js
-- **Utilities**: GitHub Actions, Windows Batch scripts
+- **Frontend**: HTML5, Vanilla JavaScript
+- **Automation**: GitHub Actions, Windows Batch (.bat) scripts
 
 ## Prerequisites
 
-- **Node.js**: v18.x or higher
-- **Git**: For repository management
+- Node.js (v18 or higher)
+- Git
 
 ## Installation & Setup
 
@@ -46,7 +41,7 @@ This repository provides the infrastructure for an agent-based office simulation
    cd Anisa-HQ
    ```
 
-2. Navigate to the backend directory and install dependencies:
+2. Install backend dependencies:
    ```bash
    cd Anisa-HQ/bot
    npm install
@@ -54,22 +49,22 @@ This repository provides the infrastructure for an agent-based office simulation
 
 ## Running the Project
 
-### Web Interface
-Open `Офис агентов.html` or `Anisa-HQ/index.html` in any modern web browser.
-
-### Agent Bot
-Run the backend service via the following command:
+### Backend Service
+Navigate to the bot directory and execute the start script:
 ```bash
 cd Anisa-HQ/bot
 npm start
 ```
 
+### Frontend
+Open `Офис агентов.html` or `Anisa-HQ/index.html` directly in any modern web browser.
+
 ## Contribution Guidelines
 
-1. Document all significant changes in relevant `.md` files.
-2. Ensure `package.json` is updated when adding new dependencies.
-3. Maintain architectural consistency by referencing `/archive` before modifying UI components.
-4. Submit a Pull Request with a clear description of the system logic or UI flow improvements.
+1. Ensure all new dependencies are documented in `package.json`.
+2. Maintain consistent naming conventions within `/archive` when adding new UI iterations.
+3. Validate scripts using provided `.bat` files before pushing changes.
+4. Submit changes via Pull Requests with clear, concise descriptions of modified logic.
 
 ## License
 
