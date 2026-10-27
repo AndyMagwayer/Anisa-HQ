@@ -74,4 +74,4 @@ The visual components are client-side files. Open `Офис агентов.html`
 ## License
 
 Distributed under the terms defined in the [LICENSE](LICENSE) file.
-<!-- David Maintenance Verified: 2026-10-27 18:52:57 (Asia/Tashkent) -->
+<!-- David Maintenance Verified: 2026-10-27 21:11:56 (Asia/Tashkent) -->
