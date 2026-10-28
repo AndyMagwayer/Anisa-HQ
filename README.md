@@ -14,7 +14,11 @@ This repository acts as a workspace for simulating office environments where age
 ├── Anisa-HQ/
 │   ├── archive/                # Historical UI/UX prototypes
 │   ├── bot/                    # Node.js backend orchestration
-│   └── index.html              # Core simulation dashboard
+│   │   ├── CLAUDE.md           # Bot-specific instructions
+│   │   ├── package.json        # Node dependencies
+│   │   └── src/index.js        # Main entry point
+│   ├── index.html              # Core simulation dashboard
+│   └── push.bat                # Windows utility script
 ├── Офис агентов.html           # Interactive office visualization
 └── Офис агентов.md             # Operational documentation (Russian)
 ```
