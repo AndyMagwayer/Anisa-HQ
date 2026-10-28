@@ -1,37 +1,41 @@
 # Anisa-HQ
 
-Anisa-HQ is a spatial simulation and agent orchestration repository. It integrates Node.js backend logic with interactive browser-based visualization tools to manage agent environments.
+Anisa-HQ is a spatial simulation and agent orchestration framework designed for managing interactive browser-based environments and backend Node.js bot logic.
+
+## Project Overview
+
+The repository serves as a workspace for simulating office environments where agents interact via spatial visualization tools. It consists of a backend Node.js orchestration service and client-side browser visualizers.
 
 ## Project Structure
 
 ```text
 ./
-├── .github/workflows/          # CI/CD and maintenance automation
+├── .github/workflows/          # Maintenance automation
 ├── Anisa-HQ/
-│   ├── archive/                # Legacy prototypes and UI iterations
-│   ├── bot/                    # Node.js backend logic
-│   └── index.html              # Main simulation dashboard
+│   ├── archive/                # Historical UI prototypes
+│   ├── bot/                    # Node.js backend orchestration
+│   └── index.html              # Core simulation dashboard
 ├── Офис агентов.html           # Interactive office visualization
-├── Офис агентов.md             # Operational documentation
+├── Офис агентов.md             # Operational documentation (Russian)
 └── README.md
 ```
 
 ## Features
 
-- **Agent Orchestration**: Backend services managed via the `Anisa-HQ/bot/` module.
-- **Spatial Simulation**: Interactive browser-based visuals (`Офис агентов.html`) for agent workflow management.
-- **Prototyping**: Iterative development history preserved in the `archive/` directory.
+- **Agent Orchestration**: Backend logic located in `Anisa-HQ/bot/` for managing agent behavior.
+- **Spatial Simulation**: Real-time browser-based monitoring through `Офис агентов.html`.
+- **Rapid Prototyping**: Legacy UI iterations preserved in `Anisa-HQ/archive/`.
 
 ## Technology Stack
 
 - **Runtime**: Node.js (v18+)
-- **Frontend**: Vanilla HTML5, CSS3, and JavaScript
-- **Automation**: GitHub Actions and Windows Batch (.bat) utilities
+- **Frontend**: HTML5, CSS3, JavaScript (Vanilla)
+- **Task Automation**: GitHub Actions and Windows Batch (.bat) scripts
 
 ## Prerequisites
 
-- Node.js (v18 or higher)
-- Git
+- [Node.js](https://nodejs.org/) (v18 or higher)
+- [Git](https://git-scm.com/)
 
 ## Installation & Setup
 
@@ -41,7 +45,7 @@ Anisa-HQ is a spatial simulation and agent orchestration repository. It integrat
    cd Anisa-HQ
    ```
 
-2. Install backend dependencies:
+2. Navigate to the bot directory and install dependencies:
    ```bash
    cd Anisa-HQ/bot
    npm install
@@ -50,28 +54,22 @@ Anisa-HQ is a spatial simulation and agent orchestration repository. It integrat
 ## Running the Project
 
 ### Backend Service
-The bot can be initiated via the provided batch script or standard npm commands:
 
-```cmd
-:: Using the provided batch script
-Anisa-HQ\bot\start.bat
+- **Using Windows Batch**: Execute `Anisa-HQ\bot\start.bat`.
+- **Via CLI**: Run `npm start` from within the `Anisa-HQ/bot/` directory.
 
-:: Or via CLI
-cd Anisa-HQ/bot
-npm start
-```
+### Frontend Visualizer
 
-### Frontend
-The visual components are client-side files. Open `Офис агентов.html` or `Anisa-HQ/index.html` directly in any modern web browser.
+Open the following files directly in any modern web browser to view the spatial simulations:
+- `Офис агентов.html`
+- `Anisa-HQ/index.html`
 
 ## Contribution Guidelines
 
-1. **Dependencies**: Update `Anisa-HQ/bot/package.json` for any added Node modules.
-2. **Documentation**: Keep `Офис агентов.md` synchronized with operational changes.
-3. **Archiving**: Move outdated UI prototypes to `Anisa-HQ/archive/` rather than deleting them.
-4. **Verification**: Validate batch script execution locally before pushing changes to the repository.
+- **Dependencies**: Any new Node modules must be added to `Anisa-HQ/bot/package.json`.
+- **Documentation**: Maintain `Офис агентов.md` for any changes impacting the operational simulation environment.
+- **Archiving**: Please relocate deprecated HTML prototypes to `Anisa-HQ/archive/` instead of deleting them to preserve development history.
 
 ## License
 
 Distributed under the terms defined in the [LICENSE](LICENSE) file.
-<!-- David Maintenance Verified: 2026-10-28 12:05:02 (Asia/Tashkent) -->
