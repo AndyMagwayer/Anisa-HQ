@@ -19,7 +19,7 @@ Anisa-HQ is a spatial simulation and agent orchestration workspace. It provides 
 
 ## Features
 
-- **Agent Orchestration**: Backend service located in `Anisa-HQ/bot/` for managing agent logic.
+- **Agent Orchestration**: Backend service located in `Anisa-HQ/bot/` for managing agent logic and state.
 - **Spatial Simulation**: Browser-based interactive visualizations (`Офис агентов.html`, `Anisa-HQ/index.html`).
 - **Prototyping Archive**: Preservation of historical office layouts and UI iterations.
 
@@ -27,7 +27,7 @@ Anisa-HQ is a spatial simulation and agent orchestration workspace. It provides 
 
 - **Runtime**: Node.js (v18+)
 - **Frontend**: HTML5, Vanilla JavaScript
-- **Automation**: GitHub Actions, Windows Batch (.bat)
+- **Automation**: GitHub Actions, Windows Batch (`.bat` scripts)
 
 ## Prerequisites
 
@@ -70,4 +70,3 @@ Open these files directly in any modern web browser:
 ## License
 
 Distributed under the terms defined in the [LICENSE](LICENSE) file.
-<!-- David Maintenance Verified: 2026-10-28 21:59:18 (Asia/Tashkent) -->
