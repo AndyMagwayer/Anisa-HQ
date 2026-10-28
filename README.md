@@ -48,7 +48,7 @@ Anisa-HQ is a spatial simulation and agent orchestration workspace designed for 
    npm install
    ```
 
-## Usage
+## Usage & Development
 
 ### Backend Service
 - **Windows**: Execute `Anisa-HQ\bot\start.bat`.
@@ -63,7 +63,7 @@ Open the following files in any modern web browser to interact with the simulati
 
 - **Dependency Management**: Ensure all additions are recorded in `Anisa-HQ/bot/package.json`.
 - **Documentation**: Keep logic updates synchronized with `Офис агентов.md`.
-- **Prototypes**: New UI iterations should be moved to `Anisa-HQ/archive/` once stabilized.
+- **Prototypes**: New UI iterations should be archived in `Anisa-HQ/archive/` once stabilized.
 
 ## License
 
