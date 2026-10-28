@@ -4,7 +4,7 @@ Anisa-HQ is a spatial simulation and agent orchestration framework designed for 
 
 ## Project Overview
 
-The repository serves as a workspace for simulating office environments where agents interact via spatial visualization tools. It provides a modular backend for agent coordination and multiple frontend interfaces for monitoring state.
+This repository acts as a workspace for simulating office environments where agents interact via spatial visualization tools. It provides a modular backend for agent coordination and multiple frontend interfaces for monitoring environment state.
 
 ## Project Structure
 
@@ -16,15 +16,14 @@ The repository serves as a workspace for simulating office environments where ag
 │   ├── bot/                    # Node.js backend orchestration
 │   └── index.html              # Core simulation dashboard
 ├── Офис агентов.html           # Interactive office visualization
-├── Офис агентов.md             # Operational documentation (Russian)
-└── README.md
+└── Офис агентов.md             # Operational documentation (Russian)
 ```
 
 ## Features
 
-- **Agent Orchestration**: Centralized backend logic in `Anisa-HQ/bot/`.
-- **Spatial Simulation**: Real-time browser-based monitoring through specialized HTML/JS dashboards.
-- **Rapid Prototyping**: Workspace for iterative development of spatial office flows.
+- **Agent Orchestration**: Backend logic located in `Anisa-HQ/bot/` for coordination tasks.
+- **Spatial Simulation**: Real-time browser-based monitoring using HTML/JS dashboards.
+- **Rapid Prototyping**: Structured environment for iterative development of spatial office layouts and flows.
 
 ## Technology Stack
 
@@ -60,7 +59,7 @@ The repository serves as a workspace for simulating office environments where ag
 
 ### Frontend Visualizer
 
-Open these files directly in a modern web browser:
+Open the following files directly in a modern web browser:
 - `Офис агентов.html`
 - `Anisa-HQ/index.html`
 
@@ -68,7 +67,7 @@ Open these files directly in a modern web browser:
 
 - **Dependency Management**: Ensure new packages are added to `Anisa-HQ/bot/package.json`.
 - **Documentation**: Update `Офис агентов.md` for logic or spatial schema changes.
-- **Archiving**: Relocate deprecated UI prototypes to `Anisa-HQ/archive/` to maintain a clean project history.
+- **Archiving**: Relocate deprecated UI prototypes to `Anisa-HQ/archive/` to maintain repository clarity.
 
 ## License
 
