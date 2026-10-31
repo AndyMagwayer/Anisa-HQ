@@ -1,65 +1,100 @@
 # Anisa HQ — AI Operations Headquarters
 
 ![Anisa HQ](https://img.shields.io/badge/Status-Active-emerald?style=flat-square)
-![Stack](https://img.shields.io/badge/Stack-HTML5%20%7C%20TypeScript%20%7C%20Tailwind-blue?style=flat-square)
+![Stack](https://img.shields.io/badge/Stack-HTML5%20%7C%20JavaScript%20%7C%20Node.js-blue?style=flat-square)
 
-Виртуальная штаб-квартира автономных AI-агентов, управляемая через **ANISA** и **Chief Coordinator**. Платформа моделирует работу распределенной виртуальной компании с четким разделением ролей, задач и операционной синхронизации между автономными агентами.
-
----
-
-## О проекте
-
-Anisa HQ предоставляет интерактивный интерфейс командного пункта для визуализации и мониторинга:
-- **Роли агентов**: Архитектор, координатор, разработчик, QA-инженер, аналитик.
-- **Офисные пространства**: Визуальная комната операций, переговорная, архив артефактов и дашборд статуса задач.
-- **Журнал событий**: Хронологическая фиксация решений, коммитов и отчетов.
+Anisa HQ is a virtual headquarters and command center designed to monitor, coordinate, and interact with autonomous AI agents and operational workflows.
 
 ---
 
-## Архитектура виртуального офиса
+## Project Overview
 
-```
+The platform serves as an interactive interface and operational hub featuring:
+- **Agent Workspaces**: Visual representation of office rooms and agent interaction flows.
+- **Bot Integration**: Node.js-based bot services located within the repository.
+- **Interactive Dashboards**: HTML-based dashboards and prototypes for managing agent tasks and office layouts.
+
+---
+
+## Project Structure
+
+```text
 Anisa-HQ/
-├── Офис агентов.html       # Интерактивное рабочее пространство штаб-квартиры
-├── Офис агентов.md         # Регламент взаимодействия и должностные инструкции
-├── Anisa-HQ/               # Исходный код веб-приложения и компонентов
-├── .github/workflows/      # Автоматизация и проверка целостности
-└── README.md               # Документация проекта
+├── .github/workflows/          # CI/CD and automation workflows
+├── Anisa-HQ/                   # Core web application components & archives
+│   ├── bot/                    # Bot service source code and configuration
+│   └── archive/                # Historical UI prototypes and room layouts
+├── Офис агентов.html           # Main interactive workspace interface
+├── Офис агентов.md             # Operational guidelines and agent descriptions
+└── README.md                   # Project documentation
 ```
 
 ---
 
-## Быстрый старт
+## Technology Stack
 
-### Локальный запуск
+- **Frontend**: HTML5, CSS3, JavaScript (Interactive UI layouts and prototypes)
+- **Backend / Bot**: Node.js (`Anisa-HQ/bot`)
+- **Automation**: GitHub Actions (`.github/workflows`)
 
-1. Склонируйте репозиторий:
+---
+
+## Prerequisites
+
+- **Node.js** (v16+ recommended for running the bot components)
+- Modern web browser (Chrome, Firefox, Edge, Safari)
+
+---
+
+## Installation & Setup
+
+1. Clone the repository:
    ```bash
    git clone https://github.com/AndyMagwayer/Anisa-HQ.git
    cd Anisa-HQ
    ```
 
-2. Откройте `Офис агентов.html` напрямую в браузере или запустите локальный веб-сервер:
+2. Navigate to the bot directory if setting up bot dependencies:
    ```bash
-   npx serve .
+   cd Anisa-HQ/bot
+   npm install
    ```
 
 ---
 
-## Регламент автономных агентов
+## Running & Development
 
-- **ANISA / Chief Coordinator**: Определение стратегических приоритетов, распределение задач в спринте.
-- **David (Engineering Agent)**: Автономное техническое обслуживание, верификация сборки и автоматическая публикация коммитов.
-- **QA & Audit**: Проверка фактов в документации, исключение непроверенных утверждений и сканирование на утечки ключей.
+### Running the Web Interface
+Open `Офис агентов.html` directly in your browser, or spin up a local static server from the root directory:
+```bash
+npx serve .
+```
+
+### Running the Bot
+Navigate to the bot directory and start the service:
+```bash
+cd Anisa-HQ/bot
+npm start
+```
+Alternatively on Windows, use the provided script:
+```cmd
+Anisa-HQ
+bot
+start.bat
+```
 
 ---
 
-## Регламент технического обслуживания
+## Contribution Guidelines
 
-> **David Autonomous Maintenance**: Ревизия документации, верификация архитектуры и аудит контрольного среза выполнены в **10/31/2026, 18:19:33** (Asia/Tashkent). Все спецификации синхронизированы с репозиторием.
+1. Fork the repository.
+2. Create a feature branch (`git checkout -b feature/amazing-feature`).
+3. Commit your changes (`git commit -m 'feat: add amazing feature'`).
+4. Push to the branch (`git push origin feature/amazing-feature`).
+5. Open a Pull Request.
 
 ---
 
-## Лицензия
+## License
 
-Распространяется на условиях лицензии проекта (см. LICENSE).
+Distributed under the project LICENSE. See [LICENSE](LICENSE) for details.
