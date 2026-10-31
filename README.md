@@ -8,13 +8,13 @@ This repository maintains the primary interactive office dashboard and a support
 
 ## Features
 
-- **Agent Dashboard**: A visual interface (`Офис агентов.html`) designed for layout management and real-time environment overview.
-- **Automation Backend**: A modular Node.js-based service located in `Anisa-HQ/bot` for handling task orchestration.
-- **Design Archive**: A curated collection of historical UI prototypes and office layout iterations.
+- **Agent Dashboard**: Interactive web-based visualization interfaces (`Офис агентов.html` and root `index.html`) designed for layout management and real-time environment overview.
+- **Automation Backend**: A modular Node.js service located in `Anisa-HQ/bot` for handling task orchestration and bot operations.
+- **Design Archive**: A curated collection of historical UI prototypes and office layout iterations in `Anisa-HQ/archive`.
 
 ## Technology Stack
 
-- **Frontend**: HTML5, Vanilla JavaScript
+- **Frontend**: HTML5, Vanilla JavaScript, CSS
 - **Backend**: Node.js
 - **Automation**: GitHub Actions (Maintenance CI)
 
@@ -22,12 +22,16 @@ This repository maintains the primary interactive office dashboard and a support
 
 ```text
 .
-├── .github/workflows/      # Automated maintenance CI
-├── Anisa-HQ/               # Core application and bot components
-│   ├── archive/            # Historical UI prototypes
-│   └── bot/                # Node.js backend service
-├── Офис агентов.html       # Primary interactive dashboard
-└── README.md               # Project documentation
+├── .github/workflows/          # Automated maintenance CI workflows
+├── Anisa-HQ/                   # Core application and bot components
+│   ├── archive/                # Historical UI prototypes and layout iterations
+│   ├── bot/                    # Node.js backend service and configuration
+│   ├── index.html              # Secondary workspace view
+│   ├── push.bat                # Windows utility script for git pushing
+│   └── README.md               # Sub-module documentation
+├── Офис агентов.html           # Primary interactive dashboard
+├── Офис агентов.md             # Dashboard descriptive documentation
+└── README.md                   # Main project documentation
 ```
 
 ## Prerequisites
@@ -51,10 +55,10 @@ This repository maintains the primary interactive office dashboard and a support
 ## Running & Development
 
 ### Web Interface
-Open `Офис агентов.html` in any modern web browser to access the dashboard.
+Open `Офис агентов.html` directly in any modern web browser to access the interactive dashboard.
 
 ### Bot Service
-Navigate to the bot directory to initialize the service:
+Navigate to the bot directory to initialize the automation service:
 ```bash
 cd Anisa-HQ/bot
 npm start
