@@ -1,22 +1,22 @@
-# Anisa HQ — AI Operations Headquarters
+# Anisa HQ
 
-Anisa HQ is a virtual headquarters interface designed for visualizing and managing AI agent workflows and office layouts.
+Anisa HQ is a specialized project directory serving as the operations headquarters for AI-driven office visualization and agent workflow management.
 
 ## Project Overview
 
-The platform provides a visual interface for managing agent environments, supported by a modular Node.js-based bot service for backend task orchestration. The repository includes current dashboard implementations, legacy prototyping archives, and bot automation scripts.
+This repository centralizes a visual management dashboard (`Офис агентов.html`) and a Node.js-based automation backend. It functions as an interface for monitoring agent environments, utilizing a combination of legacy architectural prototypes and active bot services.
 
 ## Features
 
-- **Interactive Dashboard**: Primary management interface (`Офис агентов.html`) for monitoring agent layouts.
-- **Bot Service**: A Node.js backend component for operational automation.
-- **Prototype Archive**: A historical collection of previous office UI iterations and flow configurations (`/archive`).
+- **Agent Dashboard**: A visual interface for real-time monitoring and layout management.
+- **Automation Backend**: A modular Node.js service for task orchestration.
+- **Prototyping Archive**: Historical records of office design iterations and UI flows for reference.
 
 ## Technology Stack
 
 - **Frontend**: HTML5, Vanilla JavaScript
 - **Backend**: Node.js
-- **Environment**: GitHub Actions for repository automation
+- **Automation**: GitHub Actions (Maintenance CI)
 
 ## Project Structure
 
@@ -24,7 +24,7 @@ The platform provides a visual interface for managing agent environments, suppor
 .
 ├── .github/workflows/      # Automated maintenance CI
 ├── Anisa-HQ/               # Core application and bot components
-│   ├── archive/            # Historical UI iterations
+│   ├── archive/            # Historical UI prototypes
 │   └── bot/                # Node.js backend service
 ├── Офис агентов.html       # Primary interactive dashboard
 ├── Офис агентов.md         # Operational documentation
@@ -33,7 +33,7 @@ The platform provides a visual interface for managing agent environments, suppor
 
 ## Prerequisites
 
-- Node.js (v16+)
+- Node.js (v16 or higher)
 - Git
 
 ## Installation & Setup
@@ -52,25 +52,24 @@ The platform provides a visual interface for managing agent environments, suppor
 ## Running & Development
 
 ### Web Interface
-Open `Офис агентов.html` in any modern web browser to access the core workspace.
+Open `Офис агентов.html` directly in any modern web browser.
 
 ### Bot Service
-Navigate to the bot directory to execute the service:
+Navigate to the bot directory to initialize the service:
 ```bash
 cd Anisa-HQ/bot
 npm start
 ```
-*On Windows, you may alternatively execute `start.bat` within the `bot/` directory.*
+*Alternatively, Windows users may execute `start.bat` located in the `Anisa-HQ/bot/` directory.*
 
 ## Contribution Guidelines
 
 1. Fork the repository.
-2. Create a feature branch (`git checkout -b feature/your-feature`).
+2. Create a feature branch (`git checkout -b feature/name`).
 3. Commit your changes (`git commit -m 'feat: description'`).
-4. Push to the branch (`git push origin feature/your-feature`).
+4. Push to the branch (`git push origin feature/name`).
 5. Open a Pull Request.
 
 ## License
 
 Distributed under the LICENSE provided in the root directory.
-<!-- David Maintenance Verified: 2026-10-31 19:13:35 (Asia/Tashkent) -->
