@@ -1,50 +1,45 @@
 # Anisa HQ — AI Operations Headquarters
 
-![Anisa HQ](https://img.shields.io/badge/Status-Active-emerald?style=flat-square)
+![Status](https://img.shields.io/badge/Status-Active-emerald?style=flat-square)
 ![Stack](https://img.shields.io/badge/Stack-HTML5%20%7C%20JavaScript%20%7C%20Node.js-blue?style=flat-square)
 
-Anisa HQ is a virtual headquarters and command center designed to monitor, coordinate, and interact with autonomous AI agents and operational workflows.
+Anisa HQ is a virtual headquarters and command center interface designed for visualizing and managing autonomous AI agent workflows.
 
 ---
 
 ## Project Overview
 
-The platform serves as an interactive interface and operational hub featuring:
-- **Agent Workspaces**: Visual representation of office rooms and agent interaction flows (`Офис агентов.html`).
-- **Bot Integration**: Node.js-based bot services located within `Anisa-HQ/bot`.
-- **Interactive Dashboards**: HTML-based dashboards and historical prototypes for managing agent tasks and office layouts.
+The platform provides a visual interface for managing AI agent environments and integrates with local Node.js-based bot services. The project consists of frontend dashboard prototypes and a backend bot component.
 
----
+## Features
+
+- **Visual Workspace**: Centralized interactive interface (`Офис агентов.html`) for monitoring agent layouts.
+- **Bot Integration**: Modular Node.js bot architecture for handling background tasks.
+- **Historical Prototyping**: Archive of legacy office layouts and flow configurations.
 
 ## Project Structure
 
 ```text
 Anisa-HQ/
-├── .github/workflows/          # CI/CD and automation workflows
-├── Anisa-HQ/                   # Core web application components & archives
-│   ├── bot/                    # Bot service source code and configuration
-│   └── archive/                # Historical UI prototypes and room layouts
-├── Офис агентов.html           # Main interactive workspace interface
-├── Офис агентов.md             # Operational guidelines and agent descriptions
+├── .github/workflows/          # Automated maintenance and CI workflows
+├── Anisa-HQ/                   # Core application files
+│   ├── bot/                    # Bot service source code (Node.js)
+│   └── archive/                # Historical UI and layout prototypes
+├── Офис агентов.html           # Primary interactive dashboard
+├── Офис агентов.md             # Operational documentation
 └── README.md                   # Project documentation
 ```
 
----
-
 ## Technology Stack
 
-- **Frontend**: HTML5, CSS3, JavaScript (Interactive UI layouts and prototypes)
-- **Backend / Bot**: Node.js (`Anisa-HQ/bot`)
-- **Automation**: GitHub Actions (`.github/workflows`)
-
----
+- **Frontend**: HTML5, Vanilla JavaScript
+- **Backend**: Node.js
+- **Automation**: GitHub Actions
 
 ## Prerequisites
 
-- **Node.js** (v16+ recommended for running the bot components)
-- Modern web browser (Chrome, Firefox, Edge, Safari)
-
----
+- [Node.js](https://nodejs.org/) (v16+)
+- Git
 
 ## Installation & Setup
 
@@ -54,44 +49,32 @@ Anisa-HQ/
    cd Anisa-HQ
    ```
 
-2. Navigate to the bot directory and install dependencies if setting up bot features:
+2. Install bot dependencies:
    ```bash
    cd Anisa-HQ/bot
    npm install
    ```
 
----
-
 ## Running & Development
 
-### Running the Web Interface
-Open `Офис агентов.html` directly in your browser, or spin up a local static server from the root directory:
-```bash
-npx serve .
-```
+### Web Interface
+Open `Офис агентов.html` in any modern web browser to access the workspace.
 
-### Running the Bot
-Navigate to the bot directory and start the service:
+### Bot Service
+Navigate to the bot directory and execute the following:
 ```bash
 cd Anisa-HQ/bot
 npm start
 ```
-Alternatively on Windows, use the provided batch script:
-```cmd
-Anisa-HQ\bot\start.bat
-```
-
----
+On Windows, you may also use `Anisa-HQ\bot\start.bat`.
 
 ## Contribution Guidelines
 
 1. Fork the repository.
-2. Create a feature branch (`git checkout -b feature/amazing-feature`).
-3. Commit your changes (`git commit -m 'feat: add amazing feature'`).
-4. Push to the branch (`git push origin feature/amazing-feature`).
+2. Create a feature branch: `git checkout -b feature/name`.
+3. Commit changes: `git commit -m 'feat: description'`.
+4. Push to the branch: `git push origin feature/name`.
 5. Open a Pull Request.
-
----
 
 ## License
 
