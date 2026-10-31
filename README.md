@@ -1,16 +1,16 @@
 # Anisa HQ
 
-Anisa HQ is a specialized project directory serving as the operations headquarters for AI-driven office visualization and agent workflow management.
+Anisa HQ is an operational repository housing the core infrastructure and visualization dashboard for the Anisa agent environment.
 
 ## Project Overview
 
-This repository centralizes a visual management dashboard (`Офис агентов.html`) and a Node.js-based automation backend. It functions as an interface for monitoring agent environments, utilizing a combination of legacy architectural prototypes and active bot services.
+This repository maintains the primary interactive office dashboard and a supporting Node.js automation service. It acts as the central hub for managing agent workflows and architectural visualizations.
 
 ## Features
 
-- **Agent Dashboard**: A visual interface for real-time monitoring and layout management.
-- **Automation Backend**: A modular Node.js service for task orchestration.
-- **Prototyping Archive**: Historical records of office design iterations and UI flows for reference.
+- **Agent Dashboard**: A visual interface (`Офис агентов.html`) designed for layout management and real-time environment overview.
+- **Automation Backend**: A modular Node.js-based service located in `Anisa-HQ/bot` for handling task orchestration.
+- **Design Archive**: A curated collection of historical UI prototypes and office layout iterations.
 
 ## Technology Stack
 
@@ -27,7 +27,6 @@ This repository centralizes a visual management dashboard (`Офис агент�
 │   ├── archive/            # Historical UI prototypes
 │   └── bot/                # Node.js backend service
 ├── Офис агентов.html       # Primary interactive dashboard
-├── Офис агентов.md         # Operational documentation
 └── README.md               # Project documentation
 ```
 
@@ -52,7 +51,7 @@ This repository centralizes a visual management dashboard (`Офис агент�
 ## Running & Development
 
 ### Web Interface
-Open `Офис агентов.html` directly in any modern web browser.
+Open `Офис агентов.html` in any modern web browser to access the dashboard.
 
 ### Bot Service
 Navigate to the bot directory to initialize the service:
@@ -60,7 +59,7 @@ Navigate to the bot directory to initialize the service:
 cd Anisa-HQ/bot
 npm start
 ```
-*Alternatively, Windows users may execute `start.bat` located in the `Anisa-HQ/bot/` directory.*
+*Windows users may alternatively execute `Anisa-HQ/bot/start.bat`.*
 
 ## Contribution Guidelines
 
