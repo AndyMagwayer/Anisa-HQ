@@ -10,9 +10,9 @@ Anisa HQ is a virtual headquarters and command center designed to monitor, coord
 ## Project Overview
 
 The platform serves as an interactive interface and operational hub featuring:
-- **Agent Workspaces**: Visual representation of office rooms and agent interaction flows.
-- **Bot Integration**: Node.js-based bot services located within the repository.
-- **Interactive Dashboards**: HTML-based dashboards and prototypes for managing agent tasks and office layouts.
+- **Agent Workspaces**: Visual representation of office rooms and agent interaction flows (`Офис агентов.html`).
+- **Bot Integration**: Node.js-based bot services located within `Anisa-HQ/bot`.
+- **Interactive Dashboards**: HTML-based dashboards and historical prototypes for managing agent tasks and office layouts.
 
 ---
 
@@ -54,7 +54,7 @@ Anisa-HQ/
    cd Anisa-HQ
    ```
 
-2. Navigate to the bot directory if setting up bot dependencies:
+2. Navigate to the bot directory and install dependencies if setting up bot features:
    ```bash
    cd Anisa-HQ/bot
    npm install
@@ -76,11 +76,9 @@ Navigate to the bot directory and start the service:
 cd Anisa-HQ/bot
 npm start
 ```
-Alternatively on Windows, use the provided script:
+Alternatively on Windows, use the provided batch script:
 ```cmd
-Anisa-HQ
-bot
-start.bat
+Anisa-HQ\bot\start.bat
 ```
 
 ---
