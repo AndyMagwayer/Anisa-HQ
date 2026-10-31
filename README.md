@@ -1,37 +1,34 @@
 # Anisa HQ
 
-Anisa HQ is an operational repository housing the core infrastructure and visualization dashboard for the Anisa agent environment.
+Anisa HQ is the operational repository for the Anisa agent environment, providing infrastructure for agent workflows and interactive office visualization.
 
 ## Project Overview
 
-This repository maintains the primary interactive office dashboard and a supporting Node.js automation service. It acts as the central hub for managing agent workflows and architectural visualizations.
+This repository centralizes the management of the Anisa interactive dashboard and its supporting Node.js automation services. It acts as a primary workspace for visualizing agent layouts and orchestrating background tasks.
 
 ## Features
 
-- **Agent Dashboard**: Interactive web-based visualization interfaces (`Офис агентов.html` and root `index.html`) designed for layout management and real-time environment overview.
-- **Automation Backend**: A modular Node.js service located in `Anisa-HQ/bot` for handling task orchestration and bot operations.
-- **Design Archive**: A curated collection of historical UI prototypes and office layout iterations in `Anisa-HQ/archive`.
+- **Agent Dashboard**: Interactive web-based visualizations (`Офис агентов.html` and `Anisa-HQ/index.html`) for environment layout management.
+- **Automation Backend**: A modular Node.js service located in `Anisa-HQ/bot` for handling task orchestration.
+- **Design Archive**: A historical reference of UI prototypes and layout iterations in `Anisa-HQ/archive`.
 
 ## Technology Stack
 
 - **Frontend**: HTML5, Vanilla JavaScript, CSS
 - **Backend**: Node.js
-- **Automation**: GitHub Actions (Maintenance CI)
+- **Maintenance**: GitHub Actions
 
 ## Project Structure
 
 ```text
-.
-├── .github/workflows/          # Automated maintenance CI workflows
-├── Anisa-HQ/                   # Core application and bot components
-│   ├── archive/                # Historical UI prototypes and layout iterations
-│   ├── bot/                    # Node.js backend service and configuration
-│   ├── index.html              # Secondary workspace view
-│   ├── push.bat                # Windows utility script for git pushing
-│   └── README.md               # Sub-module documentation
+. 
+├── .github/workflows/          # CI/CD maintenance workflows
+├── Anisa-HQ/                   # Core application components
+│   ├── archive/                # Historical UI prototypes
+│   ├── bot/                    # Node.js backend service
+│   └── index.html              # Secondary workspace view
 ├── Офис агентов.html           # Primary interactive dashboard
-├── Офис агентов.md             # Dashboard descriptive documentation
-└── README.md                   # Main project documentation
+└── Офис агентов.md             # Dashboard documentation
 ```
 
 ## Prerequisites
@@ -55,25 +52,24 @@ This repository maintains the primary interactive office dashboard and a support
 ## Running & Development
 
 ### Web Interface
-Open `Офис агентов.html` directly in any modern web browser to access the interactive dashboard.
+Open `Офис агентов.html` in a web browser to access the primary interactive dashboard.
 
 ### Bot Service
-Navigate to the bot directory to initialize the automation service:
+Navigate to the bot directory to start the automation service:
 ```bash
 cd Anisa-HQ/bot
 npm start
 ```
-*Windows users may alternatively execute `Anisa-HQ/bot/start.bat`.*
+*On Windows, you may also execute `Anisa-HQ/bot/start.bat`.*
 
 ## Contribution Guidelines
 
 1. Fork the repository.
 2. Create a feature branch (`git checkout -b feature/name`).
-3. Commit your changes (`git commit -m 'feat: description'`).
-4. Push to the branch (`git push origin feature/name`).
-5. Open a Pull Request.
+3. Commit your changes.
+4. Push to the branch.
+5. Open a Pull Request for review.
 
 ## License
 
 Distributed under the LICENSE provided in the root directory.
-<!-- David Maintenance Verified: 2026-10-31 22:32:20 (Asia/Tashkent) -->
