@@ -4,13 +4,13 @@ Anisa HQ is the centralized repository for the Anisa agent environment, serving 
 
 ## Project Overview
 
-This repository provides the core environment for visualizing agent activities and managing backend automation tasks. It includes both a browser-based visualization dashboard and a Node.js-based control service.
+This repository provides the core environment for visualizing agent activities and managing backend automation tasks. It includes both a browser-based visualization dashboard (`Офис агентов.html`) and a Node.js-based control service (`Anisa-HQ/bot`).
 
 ## Features
 
-- **Office Dashboard**: An interactive office layout visualization located at `Офис агентов.html`.
+- **Office Dashboard**: An interactive office layout visualization located at `Офис агентов.html` along with its technical specification in `Офис агентов.md`.
 - **Automation Backend**: A modular Node.js service located in `Anisa-HQ/bot` for executing background automation.
-- **Design Archive**: A historical collection of UI/UX layout iterations and prototypes located in `Anisa-HQ/archive`.
+- **Design Archive**: A historical collection of UI/UX layout iterations and prototypes located in `Anisa-HQ/archive` (including chat prototypes and office top-down views).
 
 ## Technology Stack
 
