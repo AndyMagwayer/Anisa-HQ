@@ -4,22 +4,20 @@ Anisa HQ is a centralized workspace for agent orchestration and environment visu
 
 ## Project Overview
 
-This repository provides the core environment for managing agent activities. It serves as a dashboard and orchestration layer, featuring:
-- **Office Dashboard**: An interactive visual representation of agent workspaces.
-- **Automation Backend**: A Node.js-based service for backend automation tasks.
+This repository serves as the core environment for managing agent activities and workspace visualization. It consists of a frontend dashboard for real-time tracking and a Node.js backend for automation tasks.
 
 ## Features
 
-- **Office Visualization**: Interactive layouts and agent tracking via `Офис агентов.html`.
-- **Technical Documentation**: Detailed specifications provided in `Офис агентов.md`.
-- **Automation Engine**: A modular Node.js bot service located in `Anisa-HQ/bot`.
-- **UI/UX Archive**: Historical dashboard prototypes and layout experiments located in `Anisa-HQ/archive`.
+- **Office Dashboard**: Interactive agent visualization available via `Офис агентов.html`.
+- **Automation Backend**: A modular Node.js service located in `Anisa-HQ/bot/` for orchestration tasks.
+- **Documentation**: Technical specifications for the dashboard found in `Офис агентов.md`.
+- **Project Archive**: Historical layouts and UI prototypes located in `Anisa-HQ/archive/`.
 
 ## Technology Stack
 
 - **Frontend**: Vanilla HTML5, CSS, and JavaScript.
 - **Backend**: Node.js.
-- **Environment**: Cross-platform (Windows/Linux/macOS).
+- **Compatibility**: Cross-platform (Windows, Linux, macOS).
 
 ## Project Structure
 
@@ -45,7 +43,7 @@ This repository provides the core environment for managing agent activities. It 
    ```bash
    git clone https://github.com/AndyMagwayer/Anisa-HQ.git
    ```
-2. Navigate to the bot directory and install dependencies:
+2. Install dependencies for the bot service:
    ```bash
    cd Anisa-HQ/bot
    npm install
@@ -57,16 +55,19 @@ This repository provides the core environment for managing agent activities. It 
 Open `Офис агентов.html` in any modern web browser to interact with the dashboard.
 
 ### Bot Service
-From the `Anisa-HQ/bot` directory, run the service using:
+Navigate to the bot directory and execute the service:
 ```bash
+# Standard approach
 npm start
+
+# Windows users can also use:
+start.bat
 ```
-*Note: Windows users may alternatively execute `start.bat`.*
 
 ## Contribution Guidelines
 
 1. Fork the repository.
-2. Create a feature branch (`git checkout -b feature/name`).
+2. Create a feature branch (`git checkout -b feature/my-feature`).
 3. Commit your changes.
 4. Push to the branch.
 5. Open a Pull Request.
