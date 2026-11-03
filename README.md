@@ -1,39 +1,42 @@
 # Anisa HQ
 
-Anisa HQ is the centralized repository for the Anisa agent environment, serving as a dashboard and orchestration workspace for agent interactions and office visualization.
+Anisa HQ is a centralized workspace for agent orchestration and environment visualization. The project integrates an interactive office-based dashboard with a Node.js backend automation service.
 
 ## Project Overview
 
-This repository provides the core environment for visualizing agent activities and managing backend automation tasks. It includes both a browser-based visualization dashboard (`Офис агентов.html`) and a Node.js-based control service (`Anisa-HQ/bot`).
+This repository provides the core environment for managing agent activities. It serves as a dashboard and orchestration layer, featuring:
+- **Office Dashboard**: An interactive visual representation of agent workspaces.
+- **Automation Backend**: A Node.js-based service for backend automation tasks.
 
 ## Features
 
-- **Office Dashboard**: An interactive office layout visualization located at `Офис агентов.html` along with its technical specification in `Офис агентов.md`.
-- **Automation Backend**: A modular Node.js service located in `Anisa-HQ/bot` for executing background automation.
-- **Design Archive**: A historical collection of UI/UX layout iterations and prototypes located in `Anisa-HQ/archive` (including chat prototypes and office top-down views).
+- **Office Visualization**: Interactive layouts and agent tracking via `Офис агентов.html`.
+- **Technical Documentation**: Detailed specifications provided in `Офис агентов.md`.
+- **Automation Engine**: A modular Node.js bot service located in `Anisa-HQ/bot`.
+- **UI/UX Archive**: Historical dashboard prototypes and layout experiments located in `Anisa-HQ/archive`.
 
 ## Technology Stack
 
 - **Frontend**: Vanilla HTML5, CSS, and JavaScript.
 - **Backend**: Node.js.
-- **Environment**: Cross-platform support (Windows/Linux/macOS).
+- **Environment**: Cross-platform (Windows/Linux/macOS).
 
 ## Project Structure
 
 ```text
 .
-├── .github/workflows/          # GitHub Actions CI/CD workflows
-├── Anisa-HQ/                   # Core application components
-│   ├── archive/                # Historical UI/UX prototypes
-│   ├── bot/                    # Node.js automation backend
+├── .github/workflows/          # CI/CD orchestration
+├── Anisa-HQ/
+│   ├── archive/                # UI/UX layout iterations
+│   ├── bot/                    # Node.js backend service
 │   └── index.html              # Supplementary dashboard
-├── Офис агентов.html           # Primary office visualization dashboard
-└── Офис агентов.md             # Dashboard technical documentation
+├── Офис агентов.html           # Primary dashboard
+└── Офис агентов.md             # Dashboard documentation
 ```
 
 ## Prerequisites
 
-- Node.js (v16 or higher)
+- Node.js (v16.x or higher)
 - Git
 
 ## Installation & Setup
@@ -42,8 +45,7 @@ This repository provides the core environment for visualizing agent activities a
    ```bash
    git clone https://github.com/AndyMagwayer/Anisa-HQ.git
    ```
-
-2. Install dependencies for the backend:
+2. Navigate to the bot directory and install dependencies:
    ```bash
    cd Anisa-HQ/bot
    npm install
@@ -55,22 +57,20 @@ This repository provides the core environment for visualizing agent activities a
 Open `Офис агентов.html` in any modern web browser to interact with the dashboard.
 
 ### Bot Service
-Navigate to the bot directory and start the service:
+From the `Anisa-HQ/bot` directory, run the service using:
 ```bash
-cd Anisa-HQ/bot
 npm start
 ```
-*Note: Windows users can execute `Anisa-HQ/bot/start.bat`.*
+*Note: Windows users may alternatively execute `start.bat`.*
 
 ## Contribution Guidelines
 
 1. Fork the repository.
-2. Create a feature branch (`git checkout -b feature/your-feature-name`).
+2. Create a feature branch (`git checkout -b feature/name`).
 3. Commit your changes.
 4. Push to the branch.
-5. Open a Pull Request for review.
+5. Open a Pull Request.
 
 ## License
 
 Distributed under the terms of the LICENSE file.
-<!-- David Maintenance Verified: 2026-11-03 05:52:13 (Asia/Tashkent) -->
