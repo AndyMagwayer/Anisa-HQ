@@ -1,23 +1,23 @@
 # Anisa HQ
 
-Anisa HQ is the central repository for the Anisa agent ecosystem, facilitating agent orchestration via a Node.js backend and a visual spatial dashboard.
+Anisa HQ is the central repository for the Anisa agent ecosystem, facilitating spatial agent orchestration and node-based automation.
 
 ## Project Overview
 
-This repository provides an integrated platform for managing agent interactions. It consists of a spatial visualization dashboard for monitoring agent environments and a Node.js-based backend service for core automation tasks.
+This repository provides a framework for managing agent interactions. It features a visual spatial dashboard (`Офис агентов.html`) for monitoring agent environments and a Node.js-based backend service located in `Anisa-HQ/bot/` for core automation tasks.
 
 ## Features
 
-- **Agent Dashboard**: A spatial visualization interface (`Офис агентов.html`) for monitoring agent states.
-- **Automation Backend**: A modular Node.js service located in `Anisa-HQ/bot/` for task processing.
+- **Agent Dashboard**: A spatial visualization interface (`Офис агентов.html`) for monitoring environment states.
+- **Automation Backend**: A modular Node.js service for task processing.
 - **Design Archive**: Historical UI iterations and spatial prototypes located in `Anisa-HQ/archive/`.
 - **Documentation**: Technical workflow specifications provided in `Офис агентов.md`.
 
 ## Technology Stack
 
-- **Frontend**: HTML5, CSS, and JavaScript.
+- **Frontend**: HTML5, CSS, and Vanilla JavaScript.
 - **Backend**: Node.js.
-- **Automation**: Git-based version control workflows.
+- **Version Control**: Git.
 
 ## Prerequisites
 
@@ -43,14 +43,14 @@ This repository provides an integrated platform for managing agent interactions.
 ## Running & Development
 
 ### Dashboard
-Open `Офис агентов.html` directly in your web browser. The frontend requires no build steps.
+Open `Офис агентов.html` directly in your web browser. No build process is required for the frontend.
 
 ### Bot Service
 From the `Anisa-HQ/bot` directory, start the service:
 ```bash
 npm start
 ```
-*Note: Windows users may alternatively execute `start.bat` found in the `Anisa-HQ/bot/` directory.*
+*Note: Windows users can execute `Anisa-HQ/bot/start.bat` for quick access.*
 
 ## Project Structure
 
@@ -59,7 +59,7 @@ npm start
 ├── .github/                # Automation workflows
 ├── Anisa-HQ/
 │   ├── archive/            # UI/UX design prototypes
-│   ├── bot/                # Node.js backend source and config
+│   ├── bot/                # Node.js backend source and configuration
 │   └── index.html          # Secondary interface
 ├── Офис агентов.html       # Primary agent dashboard
 ├── Офис агентов.md         # Dashboard technical documentation
