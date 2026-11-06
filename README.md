@@ -11,13 +11,13 @@ This project serves as a foundation for agent-based workflows, combining a visua
 - **Agent Dashboard**: A spatial visualization interface (`Офис агентов.html`) for monitoring agent activities in real-time.
 - **Automation Backend**: A modular Node.js service located in `Anisa-HQ/bot/` for task orchestration.
 - **Spatial Prototypes**: A collection of historical UI iterations available in `Anisa-HQ/archive/`.
-- **Technical Documentation**: Design and logic specifications located in `Офис агентов.md`.
+- **Technical Documentation**: Design and logic specifications provided in `Офис агентов.md`.
 
 ## Technology Stack
 
 - **Frontend**: HTML5, Vanilla JavaScript.
 - **Backend**: Node.js.
-- **Tooling**: Batch scripts for Windows process orchestration.
+- **Tooling**: Batch scripts for local Windows process orchestration.
 
 ## Prerequisites
 
@@ -50,14 +50,14 @@ From the `Anisa-HQ/bot` directory, start the service using the following command
 ```bash
 npm start
 ```
-*Alternatively, Windows users may execute the `Anisa-HQ/bot/start.bat` script.*
+*Alternatively, Windows users may execute `Anisa-HQ/bot/start.bat`.*
 
 ## Project Structure
 
 ```text
-.
+. 
 ├── .github/                # CI/CD maintenance workflows
-├── Anisa-HQ/
+├── Anisa-HQ/ 
 │   ├── archive/            # Historical UI prototypes
 │   ├── bot/                # Node.js backend logic
 │   └── index.html          # Secondary entry point
@@ -69,9 +69,9 @@ npm start
 ## Contribution Guidelines
 
 1. Fork the repository.
-2. Create a feature branch (`git checkout -b feature/your-feature-name`).
+2. Create a feature branch (`git checkout -b feature/name`).
 3. Commit your changes.
-4. Push to the branch and open a Pull Request.
+4. Push to your branch and open a Pull Request.
 
 ## License
 
