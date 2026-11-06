@@ -1,6 +1,6 @@
 # Anisa HQ
 
-Anisa HQ serves as the central repository for the Anisa agent ecosystem, facilitating spatial agent orchestration and node-based automation.
+Anisa HQ is the central repository for the Anisa agent ecosystem, facilitating spatial agent orchestration and node-based automation.
 
 ## Project Overview
 
