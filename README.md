@@ -1,6 +1,6 @@
 # Anisa HQ
 
-Anisa HQ is the central repository for the Anisa agent ecosystem, facilitating spatial agent orchestration and node-based automation.
+Anisa HQ serves as the central repository for the Anisa agent ecosystem, facilitating spatial agent orchestration and node-based automation.
 
 ## Project Overview
 
@@ -15,7 +15,7 @@ This repository provides a framework for managing agent interactions. It feature
 
 ## Technology Stack
 
-- **Frontend**: HTML5, CSS, and Vanilla JavaScript.
+- **Frontend**: HTML5, CSS, Vanilla JavaScript.
 - **Backend**: Node.js.
 - **Version Control**: Git.
 
@@ -56,22 +56,22 @@ npm start
 
 ```text
 .
-├── .github/                # Automation workflows
+├── .github/                # CI/CD workflows
 ├── Anisa-HQ/
-│   ├── archive/            # UI/UX design prototypes
-│   ├── bot/                # Node.js backend source and configuration
-│   └── index.html          # Secondary interface
+│   ├── archive/            # Historical UI prototypes
+│   ├── bot/                # Node.js backend logic
+│   └── index.html          # Secondary entry point
 ├── Офис агентов.html       # Primary agent dashboard
-├── Офис агентов.md         # Dashboard technical documentation
+├── Офис агентов.md         # Technical dashboard documentation
 └── README.md
 ```
 
 ## Contribution Guidelines
 
 1. Fork the repository.
-2. Create a feature branch (`git checkout -b feature/your-feature-name`).
+2. Create a feature branch (`git checkout -b feature/name`).
 3. Commit your changes.
-4. Push to the branch and open a Pull Request for review.
+4. Push to the branch and open a Pull Request.
 
 ## License
 
