@@ -1,23 +1,23 @@
 # Anisa-HQ
 
-Anisa-HQ is a spatial agent orchestration platform designed for node-based automation and environment monitoring.
+Anisa-HQ is a spatial agent orchestration platform focused on environment monitoring and automated task execution. This repository houses the interface logic for agent visualization and the core Node.js backend services.
 
 ## Project Overview
 
-This repository contains the core logic and interface components for the Anisa agent ecosystem. It includes a Node.js-based automation backend and a browser-based spatial dashboard for environment visualization.
+The project provides a hybrid environment: a browser-based spatial dashboard for monitoring agent statuses and a modular Node.js backend for automation. It is designed for lightweight deployment and rapid prototyping of agent-based workflows.
 
 ## Features
 
-- **Agent Dashboard**: A spatial visualization interface (`Офис агентов.html`) for monitoring agent statuses.
-- **Automation Backend**: A modular Node.js-based bot located in `/Anisa-HQ/bot` for task execution.
-- **Design Archive**: Historical UI iterations and spatial prototypes located in `/Anisa-HQ/archive/`.
-- **Documentation**: Technical specifications for the agent office flow provided in `Офис агентов.md`.
+- **Agent Dashboard**: A spatial visualization interface (`Офис агентов.html`) for monitoring agent activities.
+- **Automation Backend**: A modular Node.js-based service located in `Anisa-HQ/bot/`.
+- **Spatial Prototypes**: A collection of historical UI iterations available in `Anisa-HQ/archive/`.
+- **Technical Documentation**: Design notes for the agent ecosystem located in `Офис агентов.md`.
 
 ## Technology Stack
 
 - **Frontend**: HTML5, Vanilla JavaScript.
 - **Backend**: Node.js.
-- **Utilities**: Batch scripts for process execution.
+- **Automation**: Custom batch scripts for environment setup and process orchestration.
 
 ## Prerequisites
 
@@ -35,7 +35,7 @@ This repository contains the core logic and interface components for the Anisa a
    ```bash
    cd Anisa-HQ/bot
    ```
-3. Install project dependencies:
+3. Install dependencies:
    ```bash
    npm install
    ```
@@ -43,20 +43,20 @@ This repository contains the core logic and interface components for the Anisa a
 ## Running & Development
 
 ### Dashboard
-Open `Офис агентов.html` directly in your web browser. This interface does not require a local development server.
+Open `Офис агентов.html` directly in your web browser. No local server is required for rendering the dashboard UI.
 
 ### Bot Service
 From the `Anisa-HQ/bot` directory, start the service:
 ```bash
 npm start
 ```
-*Note: On Windows systems, you may execute `Anisa-HQ/bot/start.bat` to initiate the bot service.*
+*Alternatively, on Windows systems, execute `Anisa-HQ/bot/start.bat`.*
 
 ## Project Structure
 
 ```text
 .
-├── .github/                # CI/CD workflows
+├── .github/                # CI/CD maintenance workflows
 ├── Anisa-HQ/
 │   ├── archive/            # Historical UI prototypes
 │   ├── bot/                # Node.js backend logic
