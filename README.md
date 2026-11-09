@@ -1,28 +1,28 @@
 # Anisa-HQ
 
-Anisa-HQ is a centralized repository for coordinating AI-driven workflows and agent-based operational layouts. It serves as a visual and logical hub for managing autonomous task flows and architectural prototyping for office environments.
+Anisa-HQ is a centralized repository for coordinating AI-driven workflows, agent-based operational layouts, and spatial prototyping for office environments.
 
 ## Project Overview
 
-This repository provides a framework for agent-based operations, featuring a visual dashboard for office flow management and a Node.js-based backend module for orchestration.
+This repository provides a framework for agent-based operations, featuring a visual dashboard for office flow management and a Node.js-based bot orchestration module.
 
 ## Features
 
-- **Office Dashboard**: Visual interfaces providing spatial flow representations and operational state monitoring.
-- **Agent Orchestration**: A modular Node.js backend located in the `/Anisa-HQ/bot` directory.
-- **Architectural Archives**: Historical iterations of office layouts and prototype interface designs.
+- **Office Dashboards**: Visual interfaces (`Офис агентов.html`, `index.html`) providing spatial flow representations and operational state monitoring.
+- **Agent Orchestration**: A modular Node.js backend located in the `Anisa-HQ/bot` directory.
+- **Architectural Archives**: Historical iterations of office layouts and prototype interface designs stored under `Anisa-HQ/archive/`.
 - **Role Definitions**: Documentation of agent roles and responsibilities in `Офис агентов.md`.
 
 ## Technology Stack
 
 - **Frontend**: HTML5, Vanilla JavaScript, CSS.
 - **Backend**: Node.js.
-- **Utilities**: Windows batch scripts for automated process initiation.
+- **Utilities**: Windows batch scripts for automated process initiation and deployment workflows.
 
 ## Prerequisites
 
-- [Node.js](https://nodejs.org/) (LTS recommended).
-- A modern web browser.
+- [Node.js](https://nodejs.org/) (LTS recommended)
+- A modern web browser
 
 ## Installation & Setup
 
@@ -40,7 +40,7 @@ This repository provides a framework for agent-based operations, featuring a vis
 ## Running the Project
 
 ### Web Interface
-Serve the repository root using a local server:
+Serve the repository root using a local static server:
 ```bash
 npx serve .
 ```
@@ -57,10 +57,9 @@ node src/index.js
 
 ```text
 ├── .github/          # CI/CD maintenance workflows
-├── Anisa-HQ/         # Core application components and legacy archives
-├── bot/              # Node.js backend logic
+├── Anisa-HQ/         # Core application components, bot backend, and legacy archives
 ├── assets/           # Repository imagery
-├── Офис агентов.html # Main visual interface
+├── Офис агентов.html # Main visual office interface
 ├── Офис агентов.md   # Agent role definitions
 └── README.md         # Project documentation
 ```
