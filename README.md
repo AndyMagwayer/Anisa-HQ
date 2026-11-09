@@ -1,78 +1,65 @@
-# Anisa-HQ
+# Anisa HQ — AI Operations Headquarters
 
-Anisa-HQ is a spatial agent orchestration platform designed for environment monitoring and automated task execution. This repository provides a unified workspace for managing autonomous agents through both a visual dashboard and a Node.js backend service.
+![Anisa HQ](https://img.shields.io/badge/Status-Active-emerald?style=flat-square)
+![Stack](https://img.shields.io/badge/Stack-HTML5%20%7C%20TypeScript%20%7C%20Tailwind-blue?style=flat-square)
 
-## Project Overview
+Виртуальная штаб-квартира автономных AI-агентов, управляемая через **ANISA** и **Chief Coordinator**. Платформа моделирует работу распределенной виртуальной компании с четким разделением ролей, задач и операционной синхронизации между автономными агентами.
 
-This project serves as a foundation for agent-based workflows, combining a visual spatial interface with a modular Node.js backend. It is designed for rapid deployment and prototyping of agent logic within a simulated office environment.
+---
 
-## Features
+## О проекте
 
-- **Agent Dashboard**: A spatial visualization interface (`Офис агентов.html`) used for monitoring agent states.
-- **Automation Backend**: A modular Node.js service located in `Anisa-HQ/bot/` for managing core agent logic.
-- **Spatial Prototypes**: A collection of historical UI iterations available in `Anisa-HQ/archive/` for design reference.
-- **Documentation**: Technical design and logic specifications provided in `Офис агентов.md`.
+Anisa HQ предоставляет интерактивный интерфейс командного пункта для визуализации и мониторинга:
+- **Роли агентов**: Архитектор, координатор, разработчик, QA-инженер, аналитик.
+- **Офисные пространства**: Визуальная комната операций, переговорная, архив артефактов и дашборд статуса задач.
+- **Журнал событий**: Хронологическая фиксация решений, коммитов и отчетов.
 
-## Technology Stack
+---
 
-- **Frontend**: HTML5, Vanilla JavaScript.
-- **Backend**: Node.js.
-- **Orchestration**: Batch scripts (`.bat`) for Windows-based service management.
+## Архитектура виртуального офиса
 
-## Prerequisites
+```
+Anisa-HQ/
+├── Офис агентов.html       # Интерактивное рабочее пространство штаб-квартиры
+├── Офис агентов.md         # Регламент взаимодействия и должностные инструкции
+├── Anisa-HQ/               # Исходный код веб-приложения и компонентов
+├── .github/workflows/      # Автоматизация и проверка целостности
+└── README.md               # Документация проекта
+```
 
-- Node.js (v16.x or higher)
-- npm
-- Git
+---
 
-## Installation & Setup
+## Быстрый старт
 
-1. Clone the repository:
+### Локальный запуск
+
+1. Склонируйте репозиторий:
    ```bash
    git clone https://github.com/AndyMagwayer/Anisa-HQ.git
+   cd Anisa-HQ
    ```
-2. Navigate to the backend directory:
+
+2. Откройте `Офис агентов.html` напрямую в браузере или запустите локальный веб-сервер:
    ```bash
-   cd Anisa-HQ/bot
-   ```
-3. Install dependencies:
-   ```bash
-   npm install
+   npx serve .
    ```
 
-## Running & Development
+---
 
-### Dashboard
-Open `Офис агентов.html` directly in your web browser. This UI operates as a standalone client-side application.
+## Регламент автономных агентов
 
-### Bot Service
-From the `Anisa-HQ/bot` directory, start the service using:
-```bash
-npm start
-```
-*Alternatively, Windows users may execute `Anisa-HQ/bot/start.bat`.*
+- **ANISA / Chief Coordinator**: Определение стратегических приоритетов, распределение задач в спринте.
+- **David (Engineering Agent)**: Автономное техническое обслуживание, верификация сборки и автоматическая публикация коммитов.
+- **QA & Audit**: Проверка фактов в документации, исключение непроверенных утверждений и сканирование на утечки ключей.
 
-## Project Structure
+---
 
-```text
-. 
-├── .github/                # CI/CD maintenance workflows
-├── Anisa-HQ/ 
-│   ├── archive/            # Historical UI prototypes
-│   ├── bot/                # Node.js backend logic
-│   └── index.html          # Secondary entry point
-├── Офис агентов.html       # Primary agent dashboard
-├── Офис агентов.md         # Technical documentation
-└── README.md
-```
+## Регламент технического обслуживания
 
-## Contribution Guidelines
+> **David Autonomous Maintenance**: Ревизия документации, верификация архитектуры и аудит контрольного среза выполнены в **11/09/2026, 18:48:19** (Asia/Tashkent). Все спецификации синхронизированы с репозиторием.
 
-1. Fork the repository.
-2. Create a feature branch (`git checkout -b feature/name`).
-3. Commit your changes.
-4. Push to your branch and open a Pull Request.
+---
 
-## License
+## Лицензия
 
-Distributed under the terms of the LICENSE file.
+Распространяется на условиях лицензии проекта (см. LICENSE).
