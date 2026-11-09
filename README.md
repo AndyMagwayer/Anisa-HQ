@@ -1,6 +1,6 @@
 # Anisa-HQ
 
-Anisa-HQ serves as the centralized repository for coordinating AI-driven workflows and agent-based operational layouts. It acts as a visual and logical hub for managing autonomous task flows and architectural prototyping.
+Anisa-HQ is a centralized repository for coordinating AI-driven workflows and agent-based operational layouts. It serves as a visual and logical hub for managing autonomous task flows and architectural prototyping for office environments.
 
 ## Project Overview
 
@@ -8,16 +8,16 @@ This repository provides a framework for agent-based operations, featuring a vis
 
 ## Features
 
-- **Office Dashboard**: Visual interfaces (`Офис агентов.html`, `Anisa-HQ/archive/`) representing agent spatial flow and operational states.
-- **Agent Orchestration**: A modular Node.js backend located in the `/bot` directory designed for task management.
-- **Architectural Archives**: Version-controlled prototypes of office layouts and historical interface iterations.
-- **Role Definitions**: Centralized agent role documentation via `Офис агентов.md`.
+- **Office Dashboard**: Visual interfaces providing spatial flow representations and operational state monitoring.
+- **Agent Orchestration**: A modular Node.js backend located in the `/Anisa-HQ/bot` directory.
+- **Architectural Archives**: Historical iterations of office layouts and prototype interface designs.
+- **Role Definitions**: Documentation of agent roles and responsibilities in `Офис агентов.md`.
 
 ## Technology Stack
 
 - **Frontend**: HTML5, Vanilla JavaScript, CSS.
 - **Backend**: Node.js.
-- **Automation**: Batch scripts (`.bat`) for Windows-based execution environments.
+- **Utilities**: Windows batch scripts for automated process initiation.
 
 ## Prerequisites
 
@@ -40,7 +40,7 @@ This repository provides a framework for agent-based operations, featuring a vis
 ## Running the Project
 
 ### Web Interface
-Serve the root directory using any local server or open the HTML files directly in your browser:
+Serve the repository root using a local server:
 ```bash
 npx serve .
 ```
@@ -51,12 +51,12 @@ To start the orchestration service:
 cd Anisa-HQ/bot
 node src/index.js
 ```
-*(Alternatively, execute `start.bat` on Windows systems).* 
+*(Alternatively, execute `Anisa-HQ/bot/start.bat` on Windows systems).* 
 
 ## Project Structure
 
 ```text
-├── .github/          # CI/CD workflows
+├── .github/          # CI/CD maintenance workflows
 ├── Anisa-HQ/         # Core application components and legacy archives
 ├── bot/              # Node.js backend logic
 ├── assets/           # Repository imagery
