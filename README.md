@@ -1,3 +1,11 @@
+<!-- DAVID-SHOWCASE-START -->
+<div align="center">
+  <a href="https://github.com/AndyMagwayer/Anisa-HQ">
+    <img src="./assets/anisa-hq.png" alt="Anisa-HQ Control Room" width="100%" />
+  </a>
+</div>
+<!-- DAVID-SHOWCASE-END -->
+
 # Anisa-HQ
 
 Anisa-HQ serves as the operational interface for managing AI-driven workflows and virtual agent coordination. This repository acts as the central command hub for orchestrating autonomous tasks and tracking project architecture.
