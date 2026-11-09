@@ -1,23 +1,23 @@
 # Anisa-HQ
 
-Anisa-HQ is a spatial agent orchestration platform designed for environment monitoring and automated task execution. This repository integrates a spatial dashboard interface with a Node.js-based backend service.
+Anisa-HQ is a spatial agent orchestration platform designed for environment monitoring and automated task execution. This repository provides a unified workspace for managing autonomous agents through both a visual dashboard and a Node.js backend service.
 
 ## Project Overview
 
-This project provides a foundation for agent-based workflows, combining a visual spatial interface with a modular Node.js backend. It is designed for lightweight deployment and rapid prototyping of agent orchestration logic.
+This project serves as a foundation for agent-based workflows, combining a visual spatial interface with a modular Node.js backend. It is designed for rapid deployment and prototyping of agent logic within a simulated office environment.
 
 ## Features
 
-- **Agent Dashboard**: A spatial visualization interface (`Офис агентов.html`) for monitoring agent statuses.
-- **Automation Backend**: A modular Node.js service located in `Anisa-HQ/bot/` for managing agent tasks.
-- **Spatial Prototypes**: A collection of historical UI iterations for design reference in `Anisa-HQ/archive/`.
+- **Agent Dashboard**: A spatial visualization interface (`Офис агентов.html`) used for monitoring agent states.
+- **Automation Backend**: A modular Node.js service located in `Anisa-HQ/bot/` for managing core agent logic.
+- **Spatial Prototypes**: A collection of historical UI iterations available in `Anisa-HQ/archive/` for design reference.
 - **Documentation**: Technical design and logic specifications provided in `Офис агентов.md`.
 
 ## Technology Stack
 
 - **Frontend**: HTML5, Vanilla JavaScript.
 - **Backend**: Node.js.
-- **Orchestration**: Batch scripts (`.bat`) for Windows-based process management.
+- **Orchestration**: Batch scripts (`.bat`) for Windows-based service management.
 
 ## Prerequisites
 
@@ -43,7 +43,7 @@ This project provides a foundation for agent-based workflows, combining a visual
 ## Running & Development
 
 ### Dashboard
-Open `Офис агентов.html` directly in your web browser. This UI functions as a standalone client-side application.
+Open `Офис агентов.html` directly in your web browser. This UI operates as a standalone client-side application.
 
 ### Bot Service
 From the `Anisa-HQ/bot` directory, start the service using:
@@ -76,4 +76,3 @@ npm start
 ## License
 
 Distributed under the terms of the LICENSE file.
-<!-- David Maintenance Verified: 2026-11-09 13:22:35 (Asia/Tashkent) -->
