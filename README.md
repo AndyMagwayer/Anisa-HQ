@@ -1,3 +1,11 @@
+<!-- DAVID-SHOWCASE-START -->
+<div align="center">
+  <a href="https://github.com/AndyMagwayer/Anisa-HQ">
+    <img src="./assets/anisa-hq.png" alt="Anisa-HQ Control Room" width="100%" />
+  </a>
+</div>
+<!-- DAVID-SHOWCASE-END -->
+
 # Anisa HQ
 
 Anisa HQ is a virtual operations platform designed to simulate and visualize the workflow of autonomous AI agents. The project provides a structured environment for managing roles, tasks, and operational artifacts within a simulated office space.
