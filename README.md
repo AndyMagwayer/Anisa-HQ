@@ -8,38 +8,37 @@
 
 # Anisa HQ
 
-Anisa HQ is a virtual operations platform designed to simulate and visualize the workflow of autonomous AI agents. The project provides a structured environment for managing roles, tasks, and operational artifacts within a simulated office space.
+Anisa HQ is a simulated virtual operations platform designed to visualize and manage the workflow of autonomous AI agents. The project serves as a centralized hub for operational artifacts, agent governance, and task orchestration.
 
 ## Features
 
-- **Agent Workspace**: Visual representation of the agent office environment.
-- **Operational Documentation**: Centralized repository for agent roles, instructions, and communication protocols.
-- **Artifact Management**: Archive of historical prototypes and office iterations.
-- **Automation Layer**: Integrated bot service for task orchestration and automation.
+- **Agent Governance**: Role definitions and standard operating procedures maintained via `Офис агентов.md`.
+- **Operations Dashboard**: Web-based interface for visualizing agent office flows.
+- **Automation Layer**: Node.js-based bot service for backend task orchestration.
+- **Archive Management**: Historical tracking of office layouts and prototype iterations.
+
+## Technology Stack
+
+- **Frontend**: HTML/JS.
+- **Automation**: Node.js.
 
 ## Project Structure
 
 ```text
 .
-├── Anisa-HQ/              # Web application and core interface components
-├── Anisa-HQ/archive/      # Historical office layouts and prototypes
-├── Anisa-HQ/bot/          # Automated task orchestrator (Node.js)
-├── assets/                # Static visual assets
+├── Anisa-HQ/              # Web application and bot source
+│   ├── archive/           # Historical iterations and prototypes
+│   ├── bot/               # Node.js automation service
+│   └── index.html         # Web entry point
+├── assets/                # Visual assets
 ├── Офис агентов.html      # Primary operations dashboard
-├── Офис агентов.md        # Governance and role definitions
-└── README.md              # Project documentation
+└── Офис агентов.md        # Governance and role definitions
 ```
-
-## Technology Stack
-
-- **Frontend**: HTML5, CSS (Tailwind CSS where applicable).
-- **Automation**: Node.js, JavaScript (bot module).
-- **Version Control**: Git.
 
 ## Prerequisites
 
-- [Node.js](https://nodejs.org/) (v16+ recommended for the bot component)
-- Git installed locally.
+- [Node.js](https://nodejs.org/) (v16+ recommended for the bot component).
+- Git.
 
 ## Installation & Setup
 
@@ -49,7 +48,7 @@ Anisa HQ is a virtual operations platform designed to simulate and visualize the
    cd Anisa-HQ
    ```
 
-2. For the bot component:
+2. Initialize the automation bot:
    ```bash
    cd Anisa-HQ/bot
    npm install
@@ -57,24 +56,20 @@ Anisa HQ is a virtual operations platform designed to simulate and visualize the
 
 ## Running the Project
 
-- **Web Interface**: Open `Офис агентов.html` in any modern web browser.
-- **Automation Bot**: Use the provided starter script:
+- **Web Interface**: Open `Офис агентов.html` or `Anisa-HQ/index.html` in your browser.
+- **Automation Bot**: Execute the startup script in the bot directory:
   ```bash
-  # Windows
   cd Anisa-HQ/bot
-  start.bat
+  ./start.bat
   ```
 
 ## Contribution Guidelines
 
-As this project is managed by autonomous agents and collaborators, please adhere to the following:
-
-1. Ensure all new features are documented in the relevant `.md` files.
-2. Maintain the existing directory structure.
-3. Verify that changes to `Anisa-HQ/bot` do not break existing automation flows.
-4. Submit changes via Pull Request for architectural review.
+1. Maintain existing directory structures.
+2. Ensure documentation (`.md` files) remains synchronized with implementation changes.
+3. Verify automation logic in `Anisa-HQ/bot` before submission.
+4. Submit changes via Pull Request for review.
 
 ## License
 
 Distributed under the project LICENSE.
-<!-- David Maintenance Verified: 2026-11-12 05:28:51 (Asia/Tashkent) -->
