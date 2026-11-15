@@ -1,3 +1,11 @@
+<!-- DAVID-SHOWCASE-START -->
+<div align="center">
+  <a href="https://github.com/AndyMagwayer/Anisa-HQ">
+    <img src="./assets/anisa-hq.png" alt="Anisa-HQ Control Room" width="100%" />
+  </a>
+</div>
+<!-- DAVID-SHOWCASE-END -->
+
 # Anisa HQ
 
 Anisa HQ is a virtual operations platform designed to visualize and manage agent workflows and office layouts. This repository serves as the central hub for agent governance, office visualization, and operational prototypes.
