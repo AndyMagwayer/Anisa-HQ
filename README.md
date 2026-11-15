@@ -1,47 +1,35 @@
-<!-- DAVID-SHOWCASE-START -->
-<div align="center">
-  <a href="https://github.com/AndyMagwayer/Anisa-HQ">
-    <img src="./assets/anisa-hq.png" alt="Anisa-HQ Control Room" width="100%" />
-  </a>
-</div>
-<!-- DAVID-SHOWCASE-END -->
+# Anisa-HQ
 
-# Anisa HQ — AI Operations Headquarters
-
-![Status](https://img.shields.io/badge/Status-Active-emerald?style=flat-square)
-![Stack](https://img.shields.io/badge/Stack-HTML5%20%7C%20JavaScript%20%7C%20Node.js-blue?style=flat-square)
-
-Anisa HQ is a virtual command center designed to orchestrate and visualize the operations of autonomous AI agents. The repository serves as a centralized hub for managing workflows, agent communication, and operational protocols.
+Anisa-HQ is a centralized repository for orchestrating AI agent workflows and managing virtual office operational protocols. This project provides both a structural foundation for an AI-integrated workspace and a Node.js-based bot system for automation.
 
 ## Project Overview
 
-This project provides a structural foundation for an AI-integrated office environment. It combines a frontend interface for operational monitoring with a backend Node.js bot designed to facilitate agent coordination.
+The repository functions as a command center, featuring a frontend operational dashboard and a backend automation module. It is designed for developers and operators managing autonomous agent interactions within a simulated office environment.
 
 ## Core Features
 
-- **Operational Dashboard**: Visual interface for monitoring agent tasks and office status.
-- **Agent Coordination**: Integrated Node.js bot for task automation and agent synchronization.
-- **Operational Protocols**: Centralized documentation and instructions for agent conduct and workflows.
-- **Legacy Archive**: Historical versions of the UI and interaction models for architectural reference.
+- **Operational Dashboard**: Browser-based interfaces for monitoring agent tasks and simulated office status.
+- **Agent Coordination**: A Node.js backend capable of handling task synchronization and bot-based operations.
+- **Protocol Documentation**: Centralized guides for agent conduct and operational workflows via Markdown documentation.
+- **Legacy Archive**: Historical UI prototypes and iteration models for reference.
 
 ## Technology Stack
 
-- **Frontend**: HTML5, CSS, Vanilla JavaScript.
-- **Backend/Bot**: Node.js.
-- **Automation**: GitHub Actions (CI/CD maintenance).
+- **Frontend**: HTML5, Vanilla JavaScript.
+- **Backend**: Node.js.
+- **Automation**: GitHub Actions (Maintenance).
 
 ## Project Structure
 
 ```text
 ./
-├── .github/workflows/    # CI/CD pipelines and maintenance tasks
-├── Anisa-HQ/             # Source code and application modules
-│   ├── bot/              # Node.js agent implementation
-│   └── archive/          # Versioned UI prototypes
-├── assets/               # Media and branding assets
-├── Офис агентов.html     # Primary operational interface
-├── Офис агентов.md       # Operational protocols and documentation
-└── README.md             # Project documentation
+├── .github/workflows/    # CI/CD and automation scripts
+├── Anisa-HQ/             # Source code and modules
+│   ├── bot/              # Node.js backend integration
+│   └── archive/          # UI prototyping history
+├── assets/               # Branding and media
+├── Офис агентов.html     # Primary dashboard interface
+└── README.md             # Documentation
 ```
 
 ## Prerequisites
@@ -57,13 +45,7 @@ This project provides a structural foundation for an AI-integrated office enviro
    cd Anisa-HQ
    ```
 
-2. **Run the Frontend**:
-   Open `Офис агентов.html` or `Anisa-HQ/index.html` in your browser. Alternatively, serve locally:
-   ```bash
-   npx serve .
-   ```
-
-3. **Set up the Bot**:
+2. **Initialize the Bot**:
    ```bash
    cd Anisa-HQ/bot
    npm install
@@ -71,16 +53,12 @@ This project provides a structural foundation for an AI-integrated office enviro
 
 ## Development & Execution
 
-- **Start the Bot**:
-  ```bash
-  cd Anisa-HQ/bot
-  npm start
-  ```
-  *(Windows users may also use `start.bat` located in the `/bot` directory.)*
+- **Frontend**: Open `Офис агентов.html` directly in a browser or serve via `npx serve` from the root directory.
+- **Backend**: Run the bot via `npm start` inside the `Anisa-HQ/bot` directory.
 
 ## Contribution
 
-This project is maintained via autonomous engineering protocols. For significant architectural changes, please open an issue to discuss the implementation details with the coordinator agents.
+This project follows autonomous maintenance protocols. Please ensure all architectural changes are proposed via GitHub Issues before opening a Pull Request.
 
 ## License
 
