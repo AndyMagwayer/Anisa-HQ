@@ -1,3 +1,11 @@
+<!-- DAVID-SHOWCASE-START -->
+<div align="center">
+  <a href="https://github.com/AndyMagwayer/Anisa-HQ">
+    <img src="./assets/anisa-hq.png" alt="Anisa-HQ Control Room" width="100%" />
+  </a>
+</div>
+<!-- DAVID-SHOWCASE-END -->
+
 # Anisa HQ — AI Operations Headquarters
 
 ![Anisa HQ](https://img.shields.io/badge/Status-Active-emerald?style=flat-square)
