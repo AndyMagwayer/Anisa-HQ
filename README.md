@@ -14,8 +14,8 @@ Anisa HQ is a virtual operations platform designed to visualize and manage agent
 
 - **Governance Documentation**: Role definitions and standard operating procedures maintained in `Офис агентов.md`.
 - **Visualization Dashboards**: HTML-based dashboards (`Офис агентов.html`, `Anisa-HQ/index.html`) for monitoring office flows.
-- **Automation Layer**: Node.js-based orchestration located in `/Anisa-HQ/bot`.
-- **Iteration Archive**: Historical tracking of UI and office layout prototypes.
+- **Automation Layer**: Node.js-based orchestration located in `Anisa-HQ/bot`.
+- **Iteration Archive**: Historical tracking of UI and office layout prototypes in `Anisa-HQ/archive`.
 
 ## Technology Stack
 
@@ -56,12 +56,15 @@ Anisa HQ is a virtual operations platform designed to visualize and manage agent
 
 ## Running the Project
 
-- **Web Interface**: Open `Офис агентов.html` or `Anisa-HQ/index.html` in any modern web browser.
-- **Automation Bot**: Run the provided Windows batch script:
-  ```bash
-  cd Anisa-HQ/bot
-  start.bat
-  ```
+### Web Interface
+Open `Офис агентов.html` or `Anisa-HQ/index.html` in any modern web browser.
+
+### Automation Bot
+Run the provided Windows batch script:
+```bash
+cd Anisa-HQ/bot
+start.bat
+```
 
 ## Contribution Guidelines
 
