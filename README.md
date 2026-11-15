@@ -8,7 +8,7 @@ The repository provides a structured environment for AI agent operations, includ
 
 ## Features
 
-- **Operational Dashboard**: Browser-based interfaces (`Офис агентов.html`) for monitoring agent tasks.
+- **Operational Dashboard**: Browser-based interfaces for monitoring agent tasks (`Офис агентов.html`).
 - **Agent Coordination**: Node.js backend (`Anisa-HQ/bot`) for task synchronization and automation.
 - **Protocol Documentation**: Markdown guides defining agent conduct and office protocols.
 - **Legacy Archive**: Historical UI prototypes available in `Anisa-HQ/archive`.
@@ -22,12 +22,13 @@ The repository provides a structured environment for AI agent operations, includ
 
 ```text
 ./
-├── .github/workflows/    # Automation scripts
-├── Anisa-HQ/             # Source code and modules
-│   ├── bot/              # Node.js backend integration
-│   └── archive/          # Legacy UI prototypes
+├── .github/workflows/    # CI/CD maintenance automation
+├── Anisa-HQ/
+│   ├── archive/          # Legacy UI prototypes
+│   └── bot/              # Node.js backend integration
 ├── assets/               # Branding and media
 ├── Офис агентов.html     # Primary dashboard interface
+├── Офис агентов.md       # Operational protocols
 └── README.md             # Project documentation
 ```
 
@@ -52,8 +53,8 @@ The repository provides a structured environment for AI agent operations, includ
 
 ## Running & Development
 
-- **Frontend**: Open `Офис агентов.html` in your web browser.
-- **Backend**: Navigate to `Anisa-HQ/bot` and execute `npm start`.
+- **Frontend**: Open `Офис агентов.html` directly in your web browser.
+- **Backend**: Navigate to `Anisa-HQ/bot` and execute `npm start` (or `start.bat` on Windows).
 
 ## Contribution
 
