@@ -1,17 +1,17 @@
 # Anisa HQ
 
-Anisa HQ is a virtual operations platform designed to visualize and manage agent workflows and office layouts. This repository acts as the central hub for autonomous agent governance and operational prototypes.
+Anisa HQ is a virtual operations platform designed to visualize and manage agent workflows and office layouts. This repository serves as the central hub for agent governance, office visualization, and operational prototypes.
 
 ## Project Overview
 
-This project provides a sandbox for visualizing agent office dynamics and managing autonomous workflows via a Node.js-based orchestration layer.
+This project provides a sandbox for visualizing office dynamics and managing autonomous workflows via a Node.js-based orchestration layer. It integrates frontend visualization dashboards with backend automation capabilities.
 
 ## Features
 
-- **Governance**: Comprehensive role definitions and standard operating procedures defined in `Офис агентов.md`.
-- **Visualization Dashboards**: Multi-layered HTML dashboards including `Офис агентов.html` for operations and `Anisa-HQ/index.html` for secondary monitoring.
-- **Orchestration**: A Node.js backend (`Anisa-HQ/bot`) designed for automated agent task management.
-- **Prototyping**: A historical archive of UI and layout iterations available in `Anisa-HQ/archive`.
+- **Governance**: Strategic documentation for agent roles and standard operating procedures (see `Офис агентов.md`).
+- **Visualization Dashboards**: Multi-layered web-based dashboards for monitoring operations (`Офис агентов.html` and `Anisa-HQ/index.html`).
+- **Orchestration**: A Node.js backend (`Anisa-HQ/bot`) for handling automated agent task logic.
+- **Prototyping**: A historical archive of UI and layout iterations to track project evolution.
 
 ## Technology Stack
 
@@ -25,7 +25,7 @@ This project provides a sandbox for visualizing agent office dynamics and managi
 .
 ├── .github/             # GitHub workflow configurations
 ├── Anisa-HQ/
-│   ├── archive/         # Historical office prototypes
+│   ├── archive/         # Historical office layout prototypes
 │   ├── bot/             # Node.js orchestration engine
 │   └── index.html       # Secondary web entry point
 ├── assets/              # Project imagery
@@ -54,7 +54,7 @@ This project provides a sandbox for visualizing agent office dynamics and managi
 ## Running the Project
 
 ### Web Interface
-Open `Офис агентов.html` or `Anisa-HQ/index.html` in any modern web browser.
+Open `Офис агентов.html` or `Anisa-HQ/index.html` in any modern web browser to view the operational dashboards.
 
 ### Automation Bot
 Run the execution script for the bot:
@@ -62,13 +62,13 @@ Run the execution script for the bot:
 cd Anisa-HQ/bot
 node src/index.js
 ```
-(Or use the provided `start.bat` on Windows environments.)
+(Alternatively, use `start.bat` on Windows systems.)
 
 ## Contribution Guidelines
 
-1. **Integrity**: Maintain the existing file structure when adding new prototypes.
-2. **Documentation**: Ensure all architectural changes are reflected in this README and relevant `.md` files.
-3. **Verification**: Verify functionality of local scripts in `/bot` prior to submitting changes.
+1. **Integrity**: Maintain the existing file structure when adding new prototypes or modules.
+2. **Documentation**: Ensure all architectural changes are updated in the README and relevant documentation files.
+3. **Verification**: Validate the functionality of local scripts within `/bot` prior to submitting changes.
 
 ## License
 
