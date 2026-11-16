@@ -1,17 +1,17 @@
 # Anisa-HQ
 
-Anisa-HQ is the repository for the Anisa agent orchestration system, containing a Node.js-based backend for system tasks and browser-based visualization interfaces for monitoring agent environments.
+Anisa-HQ is a centralized repository for the Anisa agent orchestration system. It provides a Node.js-based backend for operational automation and a browser-based visualization suite for monitoring agent environments.
 
 ## Project Overview
 
-This project provides the architectural framework for managing AI agent interactions. It includes a backend automation service (`Anisa-HQ/bot`) and operational documentation defining agent behavior protocols.
+This project serves as the architectural framework for managing AI agent interactions. It separates backend logic (located in `Anisa-HQ/bot`) from visual interfaces (located in the root directory and `Anisa-HQ/archive`) to provide a clear distinction between system automation and operational monitoring.
 
 ## Features
 
-*   **Agent Dashboard**: Real-time visual monitoring via `Офис агентов.html`.
-*   **Automation Backend**: A Node.js service located in `Anisa-HQ/bot` for operational task management.
-*   **Operational Standards**: Defined agent workflows and protocols documented in `Офис агентов.md`.
-*   **Archive**: Historical office UI prototypes preserved in `Anisa-HQ/archive`.
+*   **Agent Dashboard**: Real-time visual monitoring accessible via `Офис агентов.html`.
+*   **Automation Backend**: A robust Node.js service for operational task management.
+*   **Operational Standards**: Documentation of agent workflows and protocols provided in `Офис агентов.md`.
+*   **UI Archive**: Historical office interface prototypes preserved for reference.
 
 ## Technology Stack
 
@@ -20,7 +20,7 @@ This project provides the architectural framework for managing AI agent interact
 
 ## Prerequisites
 
-*   Node.js (v18 or higher)
+*   [Node.js](https://nodejs.org/) (v18 or higher)
 *   npm
 
 ## Installation & Setup
@@ -46,7 +46,7 @@ This project provides the architectural framework for managing AI agent interact
     ```bash
     npm start
     ```
-*   **Dashboard**: Open `Офис агентов.html` in a web browser to monitor the agent environment.
+*   **Dashboard**: Open `Офис агентов.html` in any modern web browser to monitor the environment.
 
 ## Project Structure
 
@@ -65,9 +65,8 @@ This project provides the architectural framework for managing AI agent interact
 
 ## Contribution
 
-Contributions are welcome. Please ensure that modifications follow existing architectural patterns. Submit a Pull Request with a clear description of the changes.
+Contributions are welcome. Please ensure that modifications follow existing architectural patterns. Submit a Pull Request with a clear description of the proposed changes.
 
 ## License
 
 This project is licensed under the terms defined in the [LICENSE](LICENSE) file.
-<!-- David Maintenance Verified: 2026-11-16 13:02:49 (Asia/Tashkent) -->
