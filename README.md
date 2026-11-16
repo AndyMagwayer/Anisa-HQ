@@ -9,7 +9,7 @@ The repository contains a core Node.js bot for automation and a collection of HT
 ## Features
 
 - **Agent Dashboard**: Main interface for monitoring agent status (`Офис агентов.html`).
-- **Backend Automation**: Node.js-based bot system for managing task synchronization (`Anisa-HQ/bot`).
+- **Backend Automation**: Node.js-based bot system for managing task synchronization located in `Anisa-HQ/bot`.
 - **Operational Protocols**: Documentation for agent conduct and office operational standards (`Офис агентов.md`).
 - **UI Prototypes**: Historical office environment simulations available in `Anisa-HQ/archive`.
 
@@ -21,17 +21,17 @@ The repository contains a core Node.js bot for automation and a collection of HT
 ## Prerequisites
 
 - [Node.js](https://nodejs.org/) (v18 or higher)
+- npm
 - Git
 
 ## Installation & Setup
 
-1. **Clone the repository**:
+1. Clone the repository:
    ```bash
    git clone https://github.com/AndyMagwayer/Anisa-HQ.git
-   cd Anisa-HQ
    ```
 
-2. **Setup the Bot**:
+2. Navigate to the bot directory and install dependencies:
    ```bash
    cd Anisa-HQ/bot
    npm install
@@ -39,17 +39,21 @@ The repository contains a core Node.js bot for automation and a collection of HT
 
 ## Running & Development
 
-- **Frontend**: Open `Офис агентов.html` in your preferred web browser.
-- **Backend**: Navigate to `Anisa-HQ/bot` and run `npm start`.
+- **Frontend**: Open `Офис агентов.html` directly in any modern web browser.
+- **Backend**: Execute the bot using the following command from the `Anisa-HQ/bot` directory:
+  ```bash
+  npm start
+  ```
 
 ## Project Structure
 
 ```text
 ./
-├── .github/workflows/    # Maintenance automation
+├── .github/workflows/    # CI/CD maintenance automation
 ├── Anisa-HQ/
 │   ├── archive/          # Legacy UI prototypes
-│   └── bot/              # Node.js backend integration
+│   ├── bot/              # Node.js backend integration
+│   └── index.html        # Secondary entry point
 ├── assets/               # Branding assets
 ├── Офис агентов.html     # Primary dashboard
 ├── Офис агентов.md       # Operational protocols
