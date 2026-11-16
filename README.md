@@ -1,21 +1,21 @@
 # Anisa-HQ
 
-Anisa-HQ is the central repository for the Anisa agent orchestration system, featuring a Node.js-based backend for task synchronization and a browser-based visualization layer for monitoring virtual office environments.
+Anisa-HQ is the repository for the Anisa agent orchestration system, containing a Node.js-based backend for system tasks and browser-based visualization interfaces for monitoring agent environments.
 
 ## Project Overview
 
-This project provides a unified interface for managing AI agent interactions and operational protocols. The repository includes an automation service located in `Anisa-HQ/bot` and documentation outlining agent conduct and office flows.
+This project provides the architectural framework for managing AI agent interactions. It includes a backend automation service (`Anisa-HQ/bot`) and operational documentation defining agent behavior protocols.
 
 ## Features
 
-*   **Agent Monitoring**: A visualization dashboard (`Офис агентов.html`) for overseeing agent activity.
-*   **Workflow Automation**: A Node.js backend (`Anisa-HQ/bot`) designed for system integration and process management.
-*   **Operational Documentation**: Standardized protocols for agent behavior defined in `Офис агентов.md`.
-*   **Legacy Prototypes**: A collection of historical office UI simulations stored in `Anisa-HQ/archive`.
+*   **Agent Dashboard**: Real-time visual monitoring via `Офис агентов.html`.
+*   **Automation Backend**: A Node.js service located in `Anisa-HQ/bot` for operational task management.
+*   **Operational Standards**: Defined agent workflows and protocols documented in `Офис агентов.md`.
+*   **Archive**: Historical office UI prototypes preserved in `Anisa-HQ/archive`.
 
 ## Technology Stack
 
-*   **Backend**: Node.js
+*   **Runtime**: Node.js (v18+)
 *   **Frontend**: Vanilla HTML5, CSS, and JavaScript
 
 ## Prerequisites
@@ -35,18 +35,18 @@ This project provides a unified interface for managing AI agent interactions and
    cd Anisa-HQ/bot
    ```
 
-3. Install the required dependencies:
+3. Install dependencies:
    ```bash
    npm install
    ```
 
 ## Running & Development
 
-*   **Backend Service**: Start the automation bot from the `Anisa-HQ/bot` directory:
+*   **Backend Service**: Start the automation bot:
     ```bash
     npm start
     ```
-*   **Dashboard**: Open `Офис агентов.html` in your preferred web browser to access the live agent monitoring interface.
+*   **Dashboard**: Open `Офис агентов.html` in a web browser to monitor the agent environment.
 
 ## Project Structure
 
@@ -57,7 +57,7 @@ This project provides a unified interface for managing AI agent interactions and
 │   ├── archive/          # Legacy UI prototypes
 │   ├── bot/              # Node.js backend service
 │   └── index.html        # Secondary entry point
-├── assets/               # Branding assets
+├── assets/               # Project images and assets
 ├── Офис агентов.html     # Primary agent dashboard
 ├── Офис агентов.md       # Operational protocols
 └── README.md             # Project documentation
@@ -65,7 +65,7 @@ This project provides a unified interface for managing AI agent interactions and
 
 ## Contribution
 
-Contributions are welcome. Please ensure that all modifications to the bot logic or UI follow the established architectural patterns. Submit a Pull Request with a clear description of the changes for review.
+Contributions are welcome. Please ensure that modifications follow existing architectural patterns. Submit a Pull Request with a clear description of the changes.
 
 ## License
 
