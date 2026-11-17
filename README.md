@@ -1,15 +1,15 @@
 # Anisa-HQ
 
-Anisa-HQ is the central repository for the Anisa agent orchestration system. It manages the integration between the backend automation service and the browser-based visualization suite used for monitoring agent environments.
+Anisa-HQ is the central repository for the Anisa agent orchestration system, designed to manage the integration between a Node.js automation backend and a browser-based visualization suite for agent monitoring.
 
 ## Project Overview
 
-This project provides an architectural framework for managing AI agent workflows. The repository is partitioned into a Node.js backend for core system automation and a root-level frontend dashboard for visual environment monitoring.
+This project provides a structural framework for AI agent workflows. The repository is divided into a Node.js backend for core system automation and a root-level frontend interface for visual environment monitoring.
 
 ## Features
 
-* **Agent Dashboard**: Real-time visual monitoring environment accessible via `Офис агентов.html`.
-* **Automation Backend**: Node.js service for task execution and orchestration, located in `Anisa-HQ/bot`.
+* **Agent Dashboard**: A browser-based monitoring interface provided by `Офис агентов.html`.
+* **Automation Backend**: A Node.js service for task execution and orchestration, located in `Anisa-HQ/bot`.
 * **Operational Protocols**: Centralized documentation of agent workflows in `Офис агентов.md`.
 * **Interface Archive**: Historical UI prototypes preserved for architectural reference in `Anisa-HQ/archive`.
 
@@ -42,11 +42,11 @@ This project provides an architectural framework for managing AI agent workflows
 
 ## Running & Development
 
-* **Backend Service**: Start the automation bot:
+* **Backend Service**: Start the automation bot via the bot directory:
   ```bash
   npm start
   ```
-* **Dashboard**: Open `Офис агентов.html` in any modern web browser to monitor agent status.
+* **Dashboard**: Open `Офис агентов.html` in any modern web browser to view the agent status visualization.
 
 ## Project Structure
 
@@ -70,4 +70,3 @@ Contributions are welcome. Please ensure that modifications follow existing arch
 ## License
 
 This project is licensed under the terms defined in the [LICENSE](LICENSE) file.
-<!-- David Maintenance Verified: 2026-11-17 06:02:05 (Asia/Tashkent) -->
