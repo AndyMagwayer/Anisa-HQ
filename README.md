@@ -1,15 +1,15 @@
 # Anisa-HQ
 
-Anisa-HQ is the central repository for the Anisa agent orchestration system, designed to manage the integration between a Node.js automation backend and a browser-based visualization suite for agent monitoring.
+Anisa-HQ is the central repository for the Anisa agent orchestration system, facilitating the integration between a Node.js automation backend and a browser-based visualization suite.
 
 ## Project Overview
 
-This project provides a structural framework for AI agent workflows. The repository is divided into a Node.js backend for core system automation and a root-level frontend interface for visual environment monitoring.
+This project serves as a structural framework for AI agent workflows. The repository manages a Node.js backend for core system automation and a root-level frontend interface for visual agent environment monitoring.
 
 ## Features
 
 * **Agent Dashboard**: A browser-based monitoring interface provided by `Офис агентов.html`.
-* **Automation Backend**: A Node.js service for task execution and orchestration, located in `Anisa-HQ/bot`.
+* **Automation Backend**: A Node.js service for task orchestration, located in `Anisa-HQ/bot`.
 * **Operational Protocols**: Centralized documentation of agent workflows in `Офис агентов.md`.
 * **Interface Archive**: Historical UI prototypes preserved for architectural reference in `Anisa-HQ/archive`.
 
@@ -52,7 +52,7 @@ This project provides a structural framework for AI agent workflows. The reposit
 
 ```text
 ./
-├── .github/              # CI/CD and repository maintenance
+├── .github/              # CI/CD workflows
 ├── Anisa-HQ/             # Core application modules
 │   ├── archive/          # Legacy UI prototypes
 │   ├── bot/              # Node.js backend service
@@ -70,4 +70,3 @@ Contributions are welcome. Please ensure that modifications follow existing arch
 ## License
 
 This project is licensed under the terms defined in the [LICENSE](LICENSE) file.
-<!-- David Maintenance Verified: 2026-11-17 14:17:03 (Asia/Tashkent) -->
